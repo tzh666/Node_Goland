@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    {{ assets_css "/static/components/bootstrap-4.5.3/css/bootstrap.min.css"}}
+    {{ assets_css "/static/css/layout.css"}}
+    <title>用户管理</title>
+</head>
+
+<body>
+    <!-- 引入模板 -->
+    {{ template "base/templates/nav.html" . }}
+    <div class="container-fluid m-2">
+        <div class="row">
+            <div class="col-1">
+                首页
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
