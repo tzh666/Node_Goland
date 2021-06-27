@@ -790,7 +790,7 @@ beego之orm
 	6、操作
 		同步表结构
 			orm.RunCommand()  // go run .\main.go orm syncdb
-			orm.RunSyncdb("default", true, true) default 是注册数据库时候的别名
+			orm.RunSyncdb("default", true, true) // default 是注册数据库时候的别名 参数二为是否开启创建表  参数三是否更新表
 		数据的操作：CRUD
 ```
 
