@@ -39,6 +39,5 @@ func (f *PasswordModifyForm) Valid(validation *validation.Validation) {
 	} else if f.OldPassword == f.NewPassword1 {
 		// 验证新旧密码不能一致
 		validation.AddError("default.dafault", "新旧密码不能一致")
-
 	}
 }

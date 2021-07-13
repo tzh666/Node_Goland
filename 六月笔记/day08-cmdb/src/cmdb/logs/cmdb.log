@@ -186,3 +186,44 @@
 2021/06/21 22:45:39.658 [D] [server.go:2774]  |            ::1|[47m 304 [0m|    12.0004ms|   match|[44m GET     [0m /static/css/layout.css
 2021/06/21 23:33:43.478 [I] [asm_386.s:1321]  http server Running on http://:8080
 2021/06/21 23:34:12.673 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    43.0101ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2021/07/04 21:11:57.051 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/04 21:12:47.330 [D] [server.go:2887]  |            ::1|[47m 302 [0m|     3.2064ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/04 21:12:47.352 [D] [server.go:2887]  |            ::1|[42m 200 [0m|    15.7976ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/07/04 21:12:47.442 [D] [server.go:2887]  |            ::1|[42m 200 [0m|        337µs|   match|[44m GET     [0m /static/css/login.css
+2021/07/04 21:12:47.444 [D] [server.go:2887]  |            ::1|[42m 200 [0m|     2.6547ms|   match|[44m GET     [0m /static/components/bootstrap-4.5.3/css/bootstrap.min.css
+2021/07/04 21:12:47.691 [D] [server.go:2887]  |            ::1|[43m 404 [0m|     4.1146ms| nomatch|[44m GET     [0m /favicon.ico
+2021/07/04 21:13:02.129 [D] [server.go:2887]  |            ::1|[42m 200 [0m|      8.195ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/07/04 21:13:02.230 [D] [server.go:2887]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/login.css
+2021/07/04 21:13:02.231 [D] [server.go:2887]  |            ::1|[42m 200 [0m|     4.5458ms|   match|[44m GET     [0m /static/components/bootstrap-4.5.3/css/bootstrap.min.css
+2021/07/04 21:13:02.422 [D] [server.go:2887]  |            ::1|[43m 404 [0m|      5.859ms| nomatch|[44m GET     [0m /favicon.ico
+2021/07/04 21:13:07.793 [C] [panic.go:965]  the request url is  /auth/login
+2021/07/04 21:13:07.794 [C] [panic.go:965]  Handler crashed with error invalid connection
+2021/07/04 21:13:07.794 [C] [panic.go:965]  D:/Files/Go/src/runtime/panic.go:965
+2021/07/04 21:13:07.794 [C] [panic.go:965]  C:/Users/Lenovo/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/db_alias.go:206
+2021/07/04 21:13:07.794 [C] [panic.go:965]  C:/Users/Lenovo/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/db.go:361
+2021/07/04 21:13:07.794 [C] [panic.go:965]  C:/Users/Lenovo/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm.go:129
+2021/07/04 21:13:07.794 [C] [panic.go:965]  D:/Golang_student/Golang笔记/六月笔记/day08-cmdb/src/cmdb/services/user.go:73
+2021/07/04 21:13:07.794 [C] [panic.go:965]  D:/Golang_student/Golang笔记/六月笔记/day08-cmdb/src/cmdb/controllers/auth.go:49
+2021/07/04 21:13:07.794 [C] [panic.go:965]  D:/Files/Go/src/reflect/value.go:476
+2021/07/04 21:13:07.794 [C] [panic.go:965]  D:/Files/Go/src/reflect/value.go:337
+2021/07/04 21:13:07.794 [C] [panic.go:965]  C:/Users/Lenovo/go/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:897
+2021/07/04 21:13:07.794 [C] [panic.go:965]  D:/Files/Go/src/net/http/server.go:2887
+2021/07/04 21:13:07.795 [C] [panic.go:965]  D:/Files/Go/src/net/http/server.go:1952
+2021/07/04 21:13:07.795 [C] [panic.go:965]  D:/Files/Go/src/runtime/asm_amd64.s:1371
+2021/07/04 21:13:07.795 [server.go:3137]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/04 21:13:09.886 [D] [server.go:2887]  |            ::1|[42m 200 [0m|     4.9038ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/07/04 21:13:20.430 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/04 21:20:51.127 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/04 21:21:12.014 [D] [server.go:2887]  |            ::1|[47m 302 [0m|     2.4471ms|   match|[44m GET     [0m /password/modify   r:/password/modify/*
+2021/07/04 21:21:12.029 [D] [server.go:2887]  |            ::1|[42m 200 [0m|     6.2585ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/07/04 21:21:12.263 [D] [server.go:2887]  |            ::1|[43m 404 [0m|     4.0023ms| nomatch|[44m GET     [0m /favicon.ico
+2021/07/04 21:21:20.076 [I] [auth.go:57]  用户认证成功: kk3 
+2021/07/04 21:21:20.076 [D] [server.go:2887]  |            ::1|[47m 302 [0m|   181.5646ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2021/07/04 21:21:20.102 [D] [server.go:2887]  |            ::1|[42m 200 [0m|    18.5519ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/04 21:21:20.137 [D] [server.go:2887]  |            ::1|[42m 200 [0m|     1.0998ms|   match|[44m GET     [0m /static/css/layout.css
+2021/07/04 21:21:25.997 [D] [server.go:2887]  |            ::1|[42m 200 [0m|    13.9615ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2021/07/04 21:21:47.058 [D] [server.go:2887]  |            ::1|[42m 200 [0m|    10.8707ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/07/04 21:21:48.098 [D] [server.go:2887]  |            ::1|[42m 200 [0m|     9.4061ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/07/04 21:21:48.753 [D] [server.go:2887]  |            ::1|[42m 200 [0m|    14.9775ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/04 21:21:52.270 [D] [server.go:2887]  |            ::1|[47m 302 [0m|    10.6126ms|   match|[44m GET     [0m /user/delete   r:/user/delete/*
+2021/07/04 21:21:52.287 [D] [server.go:2887]  |            ::1|[42m 200 [0m|    11.3651ms|   match|[44m GET     [0m /user/query   r:/user/query/*

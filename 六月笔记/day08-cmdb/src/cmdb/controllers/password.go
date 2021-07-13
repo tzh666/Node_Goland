@@ -42,6 +42,7 @@ func (c *PasswordController) Modify() {
 	// 把错误信息回显到页面
 	c.Data["errors"] = errs
 	c.Data["text"] = text
+
 	// 生成一个input标签 <input type="hidden" name="_xsrf" value="QGJlODKVegKMsRcJtToDt6ppPVCYSL9Z" />
 	c.Data["xsrf_input"] = template.HTML(c.XSRFFormHTML())
 	// fmt.Println(template.HTML(c.XSRFFormHTML()))

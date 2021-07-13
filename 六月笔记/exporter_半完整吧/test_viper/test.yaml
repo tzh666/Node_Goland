@@ -1,0 +1,24 @@
+---
+# 特殊字符得用双引号引用起来
+mysql:
+  host: 192.168.1.208
+  port: 3306
+  username: root
+  password: 123456
+  dbname: tzh666
+
+web:
+  auth:
+    username: admin
+    password: "$2a$05$3nwHH6M3cKrDd.2gsNlJtOtuOvtc7/kgfnGv4rTbVm8F1wEeBz3Dm"
+
+log:
+  filename: "logs/mysqld.log"
+  max_age: 0
+  max_size: 1
+  max_backups: 14
+  compress: flase
+
+
+db:
+  host: 1.1.1.1

@@ -1,0 +1,4 @@
+mysql:
+  port: 3306
+redis:
+  host: 2.2.2.2
