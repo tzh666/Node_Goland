@@ -1,0 +1,667 @@
+2021/07/28 00:01:57.254 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 12:01:57] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.037009  Alertmanager/0.21.0
+2021/07/28 01:01:59.555 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 01:01:59] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.011991  Alertmanager/0.21.0
+2021/07/28 02:02:01.904 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 02:02:01] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.013994  Alertmanager/0.21.0
+2021/07/28 03:02:04.301 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 03:02:04] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.012002  Alertmanager/0.21.0
+2021/07/28 04:02:06.644 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 04:02:06] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.011989  Alertmanager/0.21.0
+2021/07/28 05:02:09.032 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 05:02:09] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.011992  Alertmanager/0.21.0
+2021/07/28 06:02:11.339 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 06:02:11] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.019005  Alertmanager/0.21.0
+2021/07/28 07:02:13.858 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 07:02:13] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.019005  Alertmanager/0.21.0
+2021/07/28 08:02:16.556 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 08:02:16] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.011003  Alertmanager/0.21.0
+2021/07/28 09:02:19.015 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 09:02:19] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.013004  Alertmanager/0.21.0
+2021/07/28 10:02:21.297 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 10:02:21] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.013004  Alertmanager/0.21.0
+2021/07/28 11:02:23.766 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 11:02:23] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.015004  Alertmanager/0.21.0
+2021/07/28 12:02:26.083 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 12:02:26] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.013003  Alertmanager/0.21.0
+2021/07/28 13:02:28.529 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 01:02:28] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.012002  Alertmanager/0.21.0
+2021/07/28 14:02:30.935 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 02:02:30] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.013016  Alertmanager/0.21.0
+2021/07/28 15:02:33.380 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 03:02:33] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.015022  Alertmanager/0.21.0
+2021/07/28 16:02:35.577 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 04:02:35] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.014005  Alertmanager/0.21.0
+2021/07/28 17:02:37.978 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 05:02:37] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.015003  Alertmanager/0.21.0
+2021/07/28 18:02:40.384 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 06:02:40] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.014004  Alertmanager/0.21.0
+2021/07/28 19:02:42.825 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 07:02:42] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.014004  Alertmanager/0.21.0
+2021/07/28 20:02:45.050 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 08:02:45] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.014003  Alertmanager/0.21.0
+2021/07/28 21:02:47.362 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 09:02:47] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.037007  Alertmanager/0.21.0
+2021/07/28 22:02:49.694 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 10:02:49] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.017004  Alertmanager/0.21.0
+2021/07/28 22:52:05.803 [server.go:2843]  ::1 - - [28/Jul/2021 10:52:05] "POST /agent/register/agent/registert/ HTTP/1.1 200 0" 0.019492  Go-http-client/1.1
+2021/07/28 22:52:05.812 [server.go:2843]  ::1 - - [28/Jul/2021 10:52:05] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.028493  Go-http-client/1.1
+2021/07/28 22:52:05.826 [server.go:2843]  ::1 - - [28/Jul/2021 10:52:05] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.042497  Go-http-client/1.1
+2021/07/28 22:52:15.785 [server.go:2843]  ::1 - - [28/Jul/2021 10:52:15] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.010986  Go-http-client/1.1
+2021/07/28 22:52:25.799 [server.go:2843]  ::1 - - [28/Jul/2021 10:52:25] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.021020  Go-http-client/1.1
+2021/07/28 22:52:35.806 [server.go:2843]  ::1 - - [28/Jul/2021 10:52:35] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.018003  Go-http-client/1.1
+2021/07/28 22:52:45.791 [server.go:2843]  ::1 - - [28/Jul/2021 10:52:45] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.010004  Go-http-client/1.1
+2021/07/28 22:52:55.781 [server.go:2843]  ::1 - - [28/Jul/2021 10:52:55] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008000  Go-http-client/1.1
+2021/07/28 22:53:05.783 [server.go:2843]  ::1 - - [28/Jul/2021 10:53:05] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.009004  Go-http-client/1.1
+2021/07/28 22:53:05.786 [server.go:2843]  ::1 - - [28/Jul/2021 10:53:05] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.012005  Go-http-client/1.1
+2021/07/28 22:53:15.795 [server.go:2843]  ::1 - - [28/Jul/2021 10:53:15] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009985  Go-http-client/1.1
+2021/07/28 22:53:25.869 [server.go:2843]  ::1 - - [28/Jul/2021 10:53:25] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.096050  Go-http-client/1.1
+2021/07/28 22:53:35.819 [server.go:2843]  ::1 - - [28/Jul/2021 10:53:35] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.035008  Go-http-client/1.1
+2021/07/28 22:53:41.887 [authorization.go:20]  ::1 - - [01/Jan/0001 12:00:00] "GET /agent/query HTTP/1.1 302 0" 0.000000 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 22:53:41.887 [server.go:2843]  ::1 - - [28/Jul/2021 10:53:41] "GET /agent/query HTTP/1.1 302 0" 0.008005 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 22:53:41.928 [server.go:2843]  ::1 - - [28/Jul/2021 10:53:41] "GET /auth/login HTTP/1.1 200 0" 0.031004 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 22:53:42.026 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 22:53:45.919 [server.go:2843]  ::1 - - [28/Jul/2021 10:53:45] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.145106  Go-http-client/1.1
+2021/07/28 22:53:48.316 [auth.go:40]  ::1 - - [01/Jan/0001 12:00:00] "POST /auth/login HTTP/1.1 302 0" 0.000000 http://localhost:8888/auth/login Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 22:53:48.316 [server.go:2843]  ::1 - - [28/Jul/2021 10:53:48] "POST /auth/login HTTP/1.1 302 0" 0.173042 http://localhost:8888/auth/login Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 22:53:48.394 [server.go:2843]  ::1 - - [28/Jul/2021 10:53:48] "GET /user/query HTTP/1.1 200 0" 0.068964 http://localhost:8888/auth/login Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 22:53:48.462 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 22:53:50.296 [server.go:2843]  ::1 - - [28/Jul/2021 10:53:50] "GET /agent/query HTTP/1.1 200 0" 0.064010 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 22:53:50.363 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 22:53:53.381 [server.go:2843]  ::1 - - [28/Jul/2021 10:53:53] "GET /agent/delete?id=20 HTTP/1.1 405 0" 0.004001 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 22:53:53.438 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 22:53:54.813 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 22:53:55.788 [server.go:2843]  ::1 - - [28/Jul/2021 10:53:55] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.016001  Go-http-client/1.1
+2021/07/28 22:54:05.866 [server.go:2843]  ::1 - - [28/Jul/2021 10:54:05] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.094021  Go-http-client/1.1
+2021/07/28 22:54:05.874 [server.go:2843]  ::1 - - [28/Jul/2021 10:54:05] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.101023  Go-http-client/1.1
+2021/07/28 22:54:15.780 [server.go:2843]  ::1 - - [28/Jul/2021 10:54:15] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008986  Go-http-client/1.1
+2021/07/28 22:54:25.786 [server.go:2843]  ::1 - - [28/Jul/2021 10:54:25] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.010002  Go-http-client/1.1
+2021/07/28 22:54:32.641 [server.go:2843]  ::1 - - [28/Jul/2021 10:54:32] "GET /agent/query HTTP/1.1 200 0" 0.016007 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 22:54:32.704 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 22:54:33.884 [server.go:2843]  ::1 - - [28/Jul/2021 10:54:33] "GET /agent/query HTTP/1.1 200 0" 0.022005 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 22:54:33.952 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 22:54:35.782 [server.go:2843]  ::1 - - [28/Jul/2021 10:54:35] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008003  Go-http-client/1.1
+2021/07/28 22:54:51.855 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/28 22:54:51.856 [I] [asm_amd64.s:1374]  https server Running on https://:8443
+2021/07/28 22:54:58.506 [server.go:2843]  ::1 - - [28/Jul/2021 10:54:58] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.020987  Go-http-client/1.1
+2021/07/28 22:55:08.483 [server.go:2843]  ::1 - - [28/Jul/2021 10:55:08] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008984  Go-http-client/1.1
+2021/07/28 22:55:13.192 [server.go:2843]  ::1 - - [28/Jul/2021 10:55:13] "GET /agent/query HTTP/1.1 200 0" 0.021004 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 22:55:13.255 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 22:55:14.779 [server.go:2843]  ::1 - - [28/Jul/2021 10:55:14] "GET /agent/query HTTP/1.1 200 0" 0.021005 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 22:55:14.842 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 22:55:16.067 [server.go:2843]  ::1 - - [28/Jul/2021 10:55:16] "GET /agent/query HTTP/1.1 200 0" 0.019008 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 22:55:16.133 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 22:55:17.150 [server.go:2843]  ::1 - - [28/Jul/2021 10:55:17] "GET /agent/query HTTP/1.1 200 0" 0.021004 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 22:55:17.247 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 22:55:18.141 [server.go:2843]  ::1 - - [28/Jul/2021 10:55:18] "GET /agent/query HTTP/1.1 200 0" 0.028005 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 22:55:18.246 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 22:55:18.485 [server.go:2843]  ::1 - - [28/Jul/2021 10:55:18] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008001  Go-http-client/1.1
+2021/07/28 22:55:19.360 [server.go:2843]  ::1 - - [28/Jul/2021 10:55:19] "GET /agent/query HTTP/1.1 200 0" 0.031008 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 22:55:19.422 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 22:55:28.506 [server.go:2843]  ::1 - - [28/Jul/2021 10:55:28] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.021005  Go-http-client/1.1
+2021/07/28 22:55:38.488 [server.go:2843]  ::1 - - [28/Jul/2021 10:55:38] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008002  Go-http-client/1.1
+2021/07/28 22:55:48.505 [server.go:2843]  ::1 - - [28/Jul/2021 10:55:48] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.016005  Go-http-client/1.1
+2021/07/28 22:55:48.531 [server.go:2843]  ::1 - - [28/Jul/2021 10:55:48] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.042011  Go-http-client/1.1
+2021/07/28 22:55:52.640 [server.go:2843]  ::1 - - [28/Jul/2021 10:55:52] "GET /agent/query HTTP/1.1 200 0" 0.020005 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 22:55:52.704 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 22:55:54.181 [server.go:2843]  ::1 - - [28/Jul/2021 10:55:54] "GET /alert/query HTTP/1.1 200 0" 0.027604 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 22:55:54.250 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 22:55:55.326 [server.go:2843]  ::1 - - [28/Jul/2021 10:55:55] "GET /agent/query HTTP/1.1 200 0" 0.019002 http://localhost:8888/alert/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 22:55:55.393 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 22:55:56.701 [server.go:2843]  ::1 - - [28/Jul/2021 10:55:56] "GET /alert/query HTTP/1.1 200 0" 0.022006 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 22:55:56.781 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 22:55:58.489 [server.go:2843]  ::1 - - [28/Jul/2021 10:55:58] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008006  Go-http-client/1.1
+2021/07/28 22:55:58.599 [server.go:2843]  ::1 - - [28/Jul/2021 10:55:58] "GET /alert/query HTTP/1.1 200 0" 0.020003 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 22:55:58.677 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 22:56:08.485 [server.go:2843]  ::1 - - [28/Jul/2021 10:56:08] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009003  Go-http-client/1.1
+2021/07/28 22:56:18.496 [server.go:2843]  ::1 - - [28/Jul/2021 10:56:18] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.011003  Go-http-client/1.1
+2021/07/28 22:56:28.495 [server.go:2843]  ::1 - - [28/Jul/2021 10:56:28] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.015004  Go-http-client/1.1
+2021/07/28 22:56:38.569 [server.go:2843]  ::1 - - [28/Jul/2021 10:56:38] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.095234  Go-http-client/1.1
+2021/07/28 22:56:48.494 [server.go:2843]  ::1 - - [28/Jul/2021 10:56:48] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.010247  Go-http-client/1.1
+2021/07/28 22:56:48.500 [server.go:2843]  ::1 - - [28/Jul/2021 10:56:48] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.016248  Go-http-client/1.1
+2021/07/28 22:56:58.483 [server.go:2843]  ::1 - - [28/Jul/2021 10:56:58] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.010980  Go-http-client/1.1
+2021/07/28 22:57:08.485 [server.go:2843]  ::1 - - [28/Jul/2021 10:57:08] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009004  Go-http-client/1.1
+2021/07/28 22:57:18.493 [server.go:2843]  ::1 - - [28/Jul/2021 10:57:18] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.010004  Go-http-client/1.1
+2021/07/28 22:57:28.496 [server.go:2843]  ::1 - - [28/Jul/2021 10:57:28] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009000  Go-http-client/1.1
+2021/07/28 22:57:38.483 [server.go:2843]  ::1 - - [28/Jul/2021 10:57:38] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009000  Go-http-client/1.1
+2021/07/28 22:57:48.498 [server.go:2843]  ::1 - - [28/Jul/2021 10:57:48] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.011003  Go-http-client/1.1
+2021/07/28 22:57:48.508 [server.go:2843]  ::1 - - [28/Jul/2021 10:57:48] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.021007  Go-http-client/1.1
+2021/07/28 22:57:58.510 [server.go:2843]  ::1 - - [28/Jul/2021 10:57:58] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.036006  Go-http-client/1.1
+2021/07/28 22:58:08.485 [server.go:2843]  ::1 - - [28/Jul/2021 10:58:08] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009002  Go-http-client/1.1
+2021/07/28 22:58:18.484 [server.go:2843]  ::1 - - [28/Jul/2021 10:58:18] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009002  Go-http-client/1.1
+2021/07/28 22:58:28.482 [server.go:2843]  ::1 - - [28/Jul/2021 10:58:28] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009004  Go-http-client/1.1
+2021/07/28 22:58:38.491 [server.go:2843]  ::1 - - [28/Jul/2021 10:58:38] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.010003  Go-http-client/1.1
+2021/07/28 22:58:48.497 [server.go:2843]  ::1 - - [28/Jul/2021 10:58:48] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.016006  Go-http-client/1.1
+2021/07/28 22:58:48.500 [server.go:2843]  ::1 - - [28/Jul/2021 10:58:48] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.020006  Go-http-client/1.1
+2021/07/28 22:58:58.485 [server.go:2843]  ::1 - - [28/Jul/2021 10:58:58] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008987  Go-http-client/1.1
+2021/07/28 22:59:08.484 [server.go:2843]  ::1 - - [28/Jul/2021 10:59:08] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.010001  Go-http-client/1.1
+2021/07/28 22:59:18.498 [server.go:2843]  ::1 - - [28/Jul/2021 10:59:18] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009984  Go-http-client/1.1
+2021/07/28 22:59:28.484 [server.go:2843]  ::1 - - [28/Jul/2021 10:59:28] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.010002  Go-http-client/1.1
+2021/07/28 22:59:38.484 [server.go:2843]  ::1 - - [28/Jul/2021 10:59:38] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.010002  Go-http-client/1.1
+2021/07/28 22:59:48.492 [server.go:2843]  ::1 - - [28/Jul/2021 10:59:48] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.014003  Go-http-client/1.1
+2021/07/28 22:59:48.494 [server.go:2843]  ::1 - - [28/Jul/2021 10:59:48] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.016004  Go-http-client/1.1
+2021/07/28 22:59:58.496 [server.go:2843]  ::1 - - [28/Jul/2021 10:59:58] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.018986  Go-http-client/1.1
+2021/07/28 23:00:08.493 [server.go:2843]  ::1 - - [28/Jul/2021 11:00:08] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.017003  Go-http-client/1.1
+2021/07/28 23:00:09.599 [server.go:2843]  ::1 - - [28/Jul/2021 11:00:09] "GET /agent/query HTTP/1.1 200 0" 0.030006 http://localhost:8888/alert/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:00:09.675 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:00:11.205 [server.go:2843]  ::1 - - [28/Jul/2021 11:00:11] "GET /agent/query HTTP/1.1 200 0" 0.019008 http://localhost:8888/alert/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:00:11.275 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:00:18.492 [server.go:2843]  ::1 - - [28/Jul/2021 11:00:18] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.017004  Go-http-client/1.1
+2021/07/28 23:00:28.495 [server.go:2843]  ::1 - - [28/Jul/2021 11:00:28] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009005  Go-http-client/1.1
+2021/07/28 23:00:41.275 [server.go:2843]  ::1 - - [28/Jul/2021 11:00:41] "POST /agent/register/agent/registert/ HTTP/1.1 200 0" 0.023010  Go-http-client/1.1
+2021/07/28 23:00:41.292 [server.go:2843]  ::1 - - [28/Jul/2021 11:00:41] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.040010  Go-http-client/1.1
+2021/07/28 23:00:41.308 [server.go:2843]  ::1 - - [28/Jul/2021 11:00:41] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.056016  Go-http-client/1.1
+2021/07/28 23:00:43.252 [server.go:2843]  ::1 - - [28/Jul/2021 11:00:43] "GET /agent/query HTTP/1.1 200 0" 0.019005 http://localhost:8888/alert/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:00:43.311 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:00:51.248 [server.go:2843]  ::1 - - [28/Jul/2021 11:00:51] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009000  Go-http-client/1.1
+2021/07/28 23:01:01.250 [server.go:2843]  ::1 - - [28/Jul/2021 11:01:01] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009002  Go-http-client/1.1
+2021/07/28 23:01:11.258 [server.go:2843]  ::1 - - [28/Jul/2021 11:01:11] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.019003  Go-http-client/1.1
+2021/07/28 23:01:21.251 [server.go:2843]  ::1 - - [28/Jul/2021 11:01:21] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008002  Go-http-client/1.1
+2021/07/28 23:01:31.257 [server.go:2843]  ::1 - - [28/Jul/2021 11:01:31] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.007003  Go-http-client/1.1
+2021/07/28 23:01:41.257 [server.go:2843]  ::1 - - [28/Jul/2021 11:01:41] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.010003  Go-http-client/1.1
+2021/07/28 23:01:41.261 [server.go:2843]  ::1 - - [28/Jul/2021 11:01:41] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.014004  Go-http-client/1.1
+2021/07/28 23:01:51.338 [server.go:2843]  ::1 - - [28/Jul/2021 11:01:51] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.096022  Go-http-client/1.1
+2021/07/28 23:01:57.245 [server.go:2843]  ::1 - - [28/Jul/2021 11:01:57] "GET /agent/query HTTP/1.1 200 0" 0.026009 http://localhost:8888/alert/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:01:57.322 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:01:58.748 [server.go:2843]  ::1 - - [28/Jul/2021 11:01:58] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.020006  Go-http-client/1.1
+2021/07/28 23:01:58.757 [server.go:2843]  ::1 - - [28/Jul/2021 11:01:58] "POST /agent/register/agent/registert/ HTTP/1.1 200 0" 0.029007  Go-http-client/1.1
+2021/07/28 23:01:58.761 [server.go:2843]  ::1 - - [28/Jul/2021 11:01:58] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.033009  Go-http-client/1.1
+2021/07/28 23:02:08.761 [server.go:2843]  ::1 - - [28/Jul/2021 11:02:08] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.048992  Go-http-client/1.1
+2021/07/28 23:02:14.674 [server.go:2843]  ::1 - - [28/Jul/2021 11:02:14] "GET /agent/query HTTP/1.1 200 0" 0.019008 http://localhost:8888/alert/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:02:14.733 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:02:16.392 [server.go:2843]  ::1 - - [28/Jul/2021 11:02:16] "GET /agent/delete?id=22 HTTP/1.1 405 0" 0.004001 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:02:16.446 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:02:17.715 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:02:18.724 [server.go:2843]  ::1 - - [28/Jul/2021 11:02:18] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008003  Go-http-client/1.1
+2021/07/28 23:02:18.841 [server.go:2843]  ::1 - - [28/Jul/2021 11:02:18] "GET /agent/modify?pk=22 HTTP/1.1 200 0" 0.021005 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:02:19.052 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:02:28.726 [server.go:2843]  ::1 - - [28/Jul/2021 11:02:28] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008000  Go-http-client/1.1
+2021/07/28 23:02:35.461 [server.go:2843]  ::1 - - [28/Jul/2021 11:02:35] "POST /agent/modify HTTP/1.1 200 0" 0.018002 http://localhost:8888/agent/modify?pk=22 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:02:35.549 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:02:38.827 [server.go:2843]  ::1 - - [28/Jul/2021 11:02:38] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.111025  Go-http-client/1.1
+2021/07/28 23:02:40.881 [agent.go:31]  ::1 - - [01/Jan/0001 12:00:00] "POST /agent/modify HTTP/1.1 302 0" 0.000000 http://localhost:8888/agent/modify Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:02:40.882 [server.go:2843]  ::1 - - [28/Jul/2021 11:02:40] "POST /agent/modify HTTP/1.1 302 0" 0.017001 http://localhost:8888/agent/modify Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:02:40.907 [server.go:2843]  ::1 - - [28/Jul/2021 11:02:40] "GET /agent/query HTTP/1.1 200 0" 0.017002 http://localhost:8888/agent/modify Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:02:40.979 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:02:42.768 [server.go:2843]  ::1 - - [28/Jul/2021 11:02:42] "GET /agent/modify?pk=22 HTTP/1.1 200 0" 0.020005 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:02:42.854 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:02:44.243 [agent.go:31]  ::1 - - [01/Jan/0001 12:00:00] "POST /agent/modify HTTP/1.1 302 0" 0.000000 http://localhost:8888/agent/modify?pk=22 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:02:44.243 [server.go:2843]  ::1 - - [28/Jul/2021 11:02:44] "POST /agent/modify HTTP/1.1 302 0" 0.011948 http://localhost:8888/agent/modify?pk=22 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:02:44.267 [server.go:2843]  ::1 - - [28/Jul/2021 11:02:44] "GET /agent/query HTTP/1.1 200 0" 0.016003 http://localhost:8888/agent/modify?pk=22 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:02:44.343 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:02:47.661 [server.go:2843]  ::1 - - [28/Jul/2021 11:02:47] "GET /agent/query HTTP/1.1 200 0" 0.019006 http://localhost:8888/agent/modify?pk=22 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:02:47.724 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:02:48.723 [server.go:2843]  ::1 - - [28/Jul/2021 11:02:48] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008259  Go-http-client/1.1
+2021/07/28 23:02:52.251 [server.go:2843]  172.16.10.112 - - [28/Jul/2021 11:02:52] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.006991  Alertmanager/0.21.0
+2021/07/28 23:02:58.734 [server.go:2843]  ::1 - - [28/Jul/2021 11:02:58] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.017019  Go-http-client/1.1
+2021/07/28 23:02:58.740 [server.go:2843]  ::1 - - [28/Jul/2021 11:02:58] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.022006  Go-http-client/1.1
+2021/07/28 23:03:08.734 [server.go:2843]  ::1 - - [28/Jul/2021 11:03:08] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.020988  Go-http-client/1.1
+2021/07/28 23:03:18.732 [server.go:2843]  ::1 - - [28/Jul/2021 11:03:18] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.010003  Go-http-client/1.1
+2021/07/28 23:03:28.727 [server.go:2843]  ::1 - - [28/Jul/2021 11:03:28] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008001  Go-http-client/1.1
+2021/07/28 23:03:30.636 [server.go:2843]  ::1 - - [28/Jul/2021 11:03:30] "GET /agent/register HTTP/1.1 200 0" 0.003001  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:03:30.787 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:03:32.859 [server.go:2843]  ::1 - - [28/Jul/2021 11:03:32] "GET /agent/register HTTP/1.1 200 0" 0.003000  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:03:32.910 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:03:38.735 [server.go:2843]  ::1 - - [28/Jul/2021 11:03:38] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.018005  Go-http-client/1.1
+2021/07/28 23:03:48.785 [server.go:2843]  ::1 - - [28/Jul/2021 11:03:48] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.064048  Go-http-client/1.1
+2021/07/28 23:03:58.735 [server.go:2843]  ::1 - - [28/Jul/2021 11:03:58] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.017005  Go-http-client/1.1
+2021/07/28 23:03:58.739 [server.go:2843]  ::1 - - [28/Jul/2021 11:03:58] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.022007  Go-http-client/1.1
+2021/07/28 23:04:08.723 [server.go:2843]  ::1 - - [28/Jul/2021 11:04:08] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.011005  Go-http-client/1.1
+2021/07/28 23:04:18.726 [server.go:2843]  ::1 - - [28/Jul/2021 11:04:18] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009007  Go-http-client/1.1
+2021/07/28 23:04:28.727 [server.go:2843]  ::1 - - [28/Jul/2021 11:04:28] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008999  Go-http-client/1.1
+2021/07/28 23:04:38.772 [server.go:2843]  ::1 - - [28/Jul/2021 11:04:38] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.053013  Go-http-client/1.1
+2021/07/28 23:04:48.859 [server.go:2843]  ::1 - - [28/Jul/2021 11:04:48] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.142032  Go-http-client/1.1
+2021/07/28 23:04:58.772 [server.go:2843]  ::1 - - [28/Jul/2021 11:04:58] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.053012  Go-http-client/1.1
+2021/07/28 23:04:58.782 [server.go:2843]  ::1 - - [28/Jul/2021 11:04:58] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.063012  Go-http-client/1.1
+2021/07/28 23:05:08.768 [server.go:2843]  ::1 - - [28/Jul/2021 11:05:08] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.050010  Go-http-client/1.1
+2021/07/28 23:05:18.738 [server.go:2843]  ::1 - - [28/Jul/2021 11:05:18] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009999  Go-http-client/1.1
+2021/07/28 23:05:28.732 [server.go:2843]  ::1 - - [28/Jul/2021 11:05:28] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.010997  Go-http-client/1.1
+2021/07/28 23:05:38.728 [server.go:2843]  ::1 - - [28/Jul/2021 11:05:38] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009002  Go-http-client/1.1
+2021/07/28 23:05:48.731 [server.go:2843]  ::1 - - [28/Jul/2021 11:05:48] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.010003  Go-http-client/1.1
+2021/07/28 23:05:58.734 [server.go:2843]  ::1 - - [28/Jul/2021 11:05:58] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.010003  Go-http-client/1.1
+2021/07/28 23:05:58.742 [server.go:2843]  ::1 - - [28/Jul/2021 11:05:58] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.016001  Go-http-client/1.1
+2021/07/28 23:06:08.723 [server.go:2843]  ::1 - - [28/Jul/2021 11:06:08] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008007  Go-http-client/1.1
+2021/07/28 23:06:10.015 [server.go:2843]  ::1 - - [28/Jul/2021 11:06:10] "GET /agent/register HTTP/1.1 200 0" 0.002003  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:06:10.066 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:06:15.737 [server.go:2843]  ::1 - - [28/Jul/2021 11:06:15] "GET /agent/query HTTP/1.1 200 0" 0.016782 http://localhost:8888/agent/modify?pk=22 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:06:15.794 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:06:16.179 [server.go:2843]  ::1 - - [28/Jul/2021 11:06:16] "GET /agent/query HTTP/1.1 200 0" 0.016004 http://localhost:8888/agent/modify?pk=22 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:06:16.234 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:06:16.686 [server.go:2843]  ::1 - - [28/Jul/2021 11:06:16] "GET /user/query HTTP/1.1 200 0" 0.017006 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:06:16.756 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:06:17.526 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:06:18.156 [server.go:2843]  ::1 - - [28/Jul/2021 11:06:18] "GET /alert/query HTTP/1.1 200 0" 0.024005 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:06:18.220 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:06:18.733 [server.go:2843]  ::1 - - [28/Jul/2021 11:06:18] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.013969  Go-http-client/1.1
+2021/07/28 23:06:20.096 [server.go:2843]  ::1 - - [28/Jul/2021 11:06:20] "GET /alert/query HTTP/1.1 200 0" 0.021005 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:06:20.172 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:06:28.725 [server.go:2843]  ::1 - - [28/Jul/2021 11:06:28] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.010001  Go-http-client/1.1
+2021/07/28 23:06:38.730 [server.go:2843]  ::1 - - [28/Jul/2021 11:06:38] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.010004  Go-http-client/1.1
+2021/07/28 23:06:48.723 [server.go:2843]  ::1 - - [28/Jul/2021 11:06:48] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008004  Go-http-client/1.1
+2021/07/28 23:06:58.731 [server.go:2843]  ::1 - - [28/Jul/2021 11:06:58] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.012003  Go-http-client/1.1
+2021/07/28 23:06:58.734 [server.go:2843]  ::1 - - [28/Jul/2021 11:06:58] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.014003  Go-http-client/1.1
+2021/07/28 23:07:08.734 [server.go:2843]  ::1 - - [28/Jul/2021 11:07:08] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.010004  Go-http-client/1.1
+2021/07/28 23:07:18.737 [server.go:2843]  ::1 - - [28/Jul/2021 11:07:18] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008004  Go-http-client/1.1
+2021/07/28 23:07:28.727 [server.go:2843]  ::1 - - [28/Jul/2021 11:07:28] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009002  Go-http-client/1.1
+2021/07/28 23:07:28.836 [server.go:2843]  ::1 - - [28/Jul/2021 11:07:28] "GET /agent/query HTTP/1.1 200 0" 0.017005 http://localhost:8888/alert/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:07:28.909 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:07:29.093 [server.go:2843]  ::1 - - [28/Jul/2021 11:07:29] "GET /agent/query HTTP/1.1 200 0" 0.018988 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:07:29.184 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:07:30.006 [server.go:2843]  ::1 - - [28/Jul/2021 11:07:29] "GET /agent/modify?pk=22 HTTP/1.1 200 0" 0.019008 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:07:30.159 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:07:38.731 [server.go:2843]  ::1 - - [28/Jul/2021 11:07:38] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.006982  Go-http-client/1.1
+2021/07/28 23:07:48.729 [server.go:2843]  ::1 - - [28/Jul/2021 11:07:48] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009002  Go-http-client/1.1
+2021/07/28 23:07:58.746 [server.go:2843]  ::1 - - [28/Jul/2021 11:07:58] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.014004  Go-http-client/1.1
+2021/07/28 23:07:58.752 [server.go:2843]  ::1 - - [28/Jul/2021 11:07:58] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.020006  Go-http-client/1.1
+2021/07/28 23:08:08.726 [server.go:2843]  ::1 - - [28/Jul/2021 11:08:08] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.011003  Go-http-client/1.1
+2021/07/28 23:08:18.731 [server.go:2843]  ::1 - - [28/Jul/2021 11:08:18] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.011003  Go-http-client/1.1
+2021/07/28 23:08:28.738 [server.go:2843]  ::1 - - [28/Jul/2021 11:08:28] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.010986  Go-http-client/1.1
+2021/07/28 23:08:38.725 [server.go:2843]  ::1 - - [28/Jul/2021 11:08:38] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008004  Go-http-client/1.1
+2021/07/28 23:08:48.732 [server.go:2843]  ::1 - - [28/Jul/2021 11:08:48] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.007003  Go-http-client/1.1
+2021/07/28 23:08:58.737 [server.go:2843]  ::1 - - [28/Jul/2021 11:08:58] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.012003  Go-http-client/1.1
+2021/07/28 23:08:58.741 [server.go:2843]  ::1 - - [28/Jul/2021 11:08:58] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.016002  Go-http-client/1.1
+2021/07/28 23:09:08.722 [server.go:2843]  ::1 - - [28/Jul/2021 11:09:08] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009002  Go-http-client/1.1
+2021/07/28 23:09:18.736 [server.go:2843]  ::1 - - [28/Jul/2021 11:09:18] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009998  Go-http-client/1.1
+2021/07/28 23:09:28.386 [server.go:2843]  ::1 - - [28/Jul/2021 11:09:28] "POST /agent/modify HTTP/1.1 200 0" 0.018005 http://localhost:8888/agent/modify?pk=22 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:09:28.510 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:09:28.724 [server.go:2843]  ::1 - - [28/Jul/2021 11:09:28] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.007011  Go-http-client/1.1
+2021/07/28 23:09:38.727 [server.go:2843]  ::1 - - [28/Jul/2021 11:09:38] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009006  Go-http-client/1.1
+2021/07/28 23:09:48.871 [server.go:2843]  ::1 - - [28/Jul/2021 11:09:48] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.151032  Go-http-client/1.1
+2021/07/28 23:09:49.524 [agent.go:31]  ::1 - - [01/Jan/0001 12:00:00] "POST /agent/modify HTTP/1.1 302 0" 0.000000 http://localhost:8888/agent/modify Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:09:49.524 [server.go:2843]  ::1 - - [28/Jul/2021 11:09:49] "POST /agent/modify HTTP/1.1 302 0" 0.014004 http://localhost:8888/agent/modify Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:09:49.547 [server.go:2843]  ::1 - - [28/Jul/2021 11:09:49] "GET /agent/query HTTP/1.1 200 0" 0.015004 http://localhost:8888/agent/modify Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:09:49.613 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:09:51.169 [server.go:2843]  ::1 - - [28/Jul/2021 11:09:51] "GET /agent/modify?pk=22 HTTP/1.1 200 0" 0.021002 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:09:51.292 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:09:53.593 [agent.go:31]  ::1 - - [01/Jan/0001 12:00:00] "POST /agent/modify HTTP/1.1 302 0" 0.000000 http://localhost:8888/agent/modify?pk=22 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:09:53.593 [server.go:2843]  ::1 - - [28/Jul/2021 11:09:53] "POST /agent/modify HTTP/1.1 302 0" 0.012004 http://localhost:8888/agent/modify?pk=22 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:09:53.616 [server.go:2843]  ::1 - - [28/Jul/2021 11:09:53] "GET /agent/query HTTP/1.1 200 0" 0.015003 http://localhost:8888/agent/modify?pk=22 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:09:53.677 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:09:55.268 [server.go:2843]  ::1 - - [28/Jul/2021 11:09:55] "GET /agent/query HTTP/1.1 200 0" 0.017003 http://localhost:8888/agent/modify?pk=22 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:09:55.322 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:09:58.725 [server.go:2843]  ::1 - - [28/Jul/2021 11:09:58] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.010002  Go-http-client/1.1
+2021/07/28 23:09:58.728 [server.go:2843]  ::1 - - [28/Jul/2021 11:09:58] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.013003  Go-http-client/1.1
+2021/07/28 23:10:07.774 [server.go:2843]  ::1 - - [28/Jul/2021 11:10:07] "GET /agent/modify?pk=22 HTTP/1.1 200 0" 0.025005 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:10:08.009 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:10:08.721 [server.go:2843]  ::1 - - [28/Jul/2021 11:10:08] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008288  Go-http-client/1.1
+2021/07/28 23:10:18.727 [server.go:2843]  ::1 - - [28/Jul/2021 11:10:18] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008002  Go-http-client/1.1
+2021/07/28 23:10:28.733 [server.go:2843]  ::1 - - [28/Jul/2021 11:10:28] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008006  Go-http-client/1.1
+2021/07/28 23:10:38.739 [server.go:2843]  ::1 - - [28/Jul/2021 11:10:38] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.017003  Go-http-client/1.1
+2021/07/28 23:10:48.728 [server.go:2843]  ::1 - - [28/Jul/2021 11:10:48] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.013004  Go-http-client/1.1
+2021/07/28 23:10:58.724 [server.go:2843]  ::1 - - [28/Jul/2021 11:10:58] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.009002  Go-http-client/1.1
+2021/07/28 23:10:58.728 [server.go:2843]  ::1 - - [28/Jul/2021 11:10:58] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.013003  Go-http-client/1.1
+2021/07/28 23:11:08.724 [server.go:2843]  ::1 - - [28/Jul/2021 11:11:08] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.007983  Go-http-client/1.1
+2021/07/28 23:11:18.739 [server.go:2843]  ::1 - - [28/Jul/2021 11:11:18] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009002  Go-http-client/1.1
+2021/07/28 23:11:28.729 [server.go:2843]  ::1 - - [28/Jul/2021 11:11:28] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.012003  Go-http-client/1.1
+2021/07/28 23:11:38.728 [server.go:2843]  ::1 - - [28/Jul/2021 11:11:38] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008000  Go-http-client/1.1
+2021/07/28 23:11:48.726 [server.go:2843]  ::1 - - [28/Jul/2021 11:11:48] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008002  Go-http-client/1.1
+2021/07/28 23:11:58.734 [server.go:2843]  ::1 - - [28/Jul/2021 11:11:58] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009006  Go-http-client/1.1
+2021/07/28 23:11:58.735 [server.go:2843]  ::1 - - [28/Jul/2021 11:11:58] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.011003  Go-http-client/1.1
+2021/07/28 23:12:04.497 [server.go:2843]  ::1 - - [28/Jul/2021 11:12:04] "POST /agent/register HTTP/1.1 200 0" 0.014003  Go-http-client/1.1
+2021/07/28 23:12:08.730 [server.go:2843]  ::1 - - [28/Jul/2021 11:12:08] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.017002  Go-http-client/1.1
+2021/07/28 23:12:16.210 [server.go:2843]  ::1 - - [28/Jul/2021 11:12:16] "GET /alert/query HTTP/1.1 200 0" 0.017017 http://localhost:8888/agent/modify?pk=22 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:12:16.277 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:12:16.565 [server.go:2843]  ::1 - - [28/Jul/2021 11:12:16] "GET /agent/query HTTP/1.1 200 0" 0.016021 http://localhost:8888/alert/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:12:16.623 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:12:18.726 [server.go:2843]  ::1 - - [28/Jul/2021 11:12:18] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009002  Go-http-client/1.1
+2021/07/28 23:12:20.647 [server.go:2843]  ::1 - - [28/Jul/2021 11:12:20] "GET /agent/delete?id=22 HTTP/1.1 405 0" 0.007001 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:12:20.699 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:12:22.549 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:12:28.668 [server.go:2843]  ::1 - - [28/Jul/2021 11:12:28] "POST /agent/register HTTP/1.1 200 0" 0.011004  Go-http-client/1.1
+2021/07/28 23:12:28.735 [server.go:2843]  ::1 - - [28/Jul/2021 11:12:28] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009005  Go-http-client/1.1
+2021/07/28 23:12:28.787 [server.go:2843]  ::1 - - [28/Jul/2021 11:12:28] "GET /agent/query HTTP/1.1 200 0" 0.019004 http://localhost:8888/alert/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:12:28.845 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:12:38.728 [server.go:2843]  ::1 - - [28/Jul/2021 11:12:38] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009002  Go-http-client/1.1
+2021/07/28 23:12:48.737 [server.go:2843]  ::1 - - [28/Jul/2021 11:12:48] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.010001  Go-http-client/1.1
+2021/07/28 23:12:58.742 [server.go:2843]  ::1 - - [28/Jul/2021 11:12:58] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.012003  Go-http-client/1.1
+2021/07/28 23:12:58.748 [server.go:2843]  ::1 - - [28/Jul/2021 11:12:58] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.018004  Go-http-client/1.1
+2021/07/28 23:13:08.726 [server.go:2843]  ::1 - - [28/Jul/2021 11:13:08] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009001  Go-http-client/1.1
+2021/07/28 23:13:18.728 [server.go:2843]  ::1 - - [28/Jul/2021 11:13:18] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009004  Go-http-client/1.1
+2021/07/28 23:13:28.729 [server.go:2843]  ::1 - - [28/Jul/2021 11:13:28] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.009006  Go-http-client/1.1
+2021/07/28 23:13:35.131 [server.go:2843]  ::1 - - [28/Jul/2021 11:13:35] "GET /agent/register HTTP/1.1 200 0" 0.003001  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:13:35.250 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:13:38.723 [server.go:2843]  ::1 - - [28/Jul/2021 11:13:38] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008984  Go-http-client/1.1
+2021/07/28 23:13:48.727 [server.go:2843]  ::1 - - [28/Jul/2021 11:13:48] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008002  Go-http-client/1.1
+2021/07/28 23:13:58.741 [server.go:2843]  ::1 - - [28/Jul/2021 11:13:58] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.013004  Go-http-client/1.1
+2021/07/28 23:13:58.745 [server.go:2843]  ::1 - - [28/Jul/2021 11:13:58] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.018004  Go-http-client/1.1
+2021/07/28 23:14:08.723 [server.go:2843]  ::1 - - [28/Jul/2021 11:14:08] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.008985  Go-http-client/1.1
+2021/07/28 23:14:18.740 [server.go:2843]  ::1 - - [28/Jul/2021 11:14:18] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.011003  Go-http-client/1.1
+2021/07/28 23:14:30.187 [server.go:2843]  ::1 - - [28/Jul/2021 11:14:30] "POST /agent/register/agent/registert/ HTTP/1.1 200 0" 0.030007  Go-http-client/1.1
+2021/07/28 23:14:30.196 [server.go:2843]  ::1 - - [28/Jul/2021 11:14:30] "POST /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.039010  Go-http-client/1.1
+2021/07/28 23:14:30.206 [server.go:2843]  ::1 - - [28/Jul/2021 11:14:30] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.048011  Go-http-client/1.1
+2021/07/28 23:14:56.035 [server.go:2843]  ::1 - - [28/Jul/2021 11:14:56] "GET /agent/register/agent/heartbeat/ HTTP/1.1 200 0" 0.003001  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:14:56.156 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:15:07.034 [server.go:2843]  ::1 - - [28/Jul/2021 11:15:07] "GET /agent/register/agent/ HTTP/1.1 200 0" 0.002004  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:15:07.089 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:15:09.829 [server.go:2843]  ::1 - - [28/Jul/2021 11:15:09] "GET /agent/register/agent/xxx HTTP/1.1 200 0" 0.004002  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:15:09.881 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:15:11.718 [server.go:2843]  ::1 - - [28/Jul/2021 11:15:11] "GET /agent/register/agent/xxx HTTP/1.1 200 0" 0.002000  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:15:11.764 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:15:12.114 [server.go:2843]  ::1 - - [28/Jul/2021 11:15:12] "GET /agent/register/agent/xxx HTTP/1.1 200 0" 0.002003  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:15:12.161 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:15:12.315 [server.go:2843]  ::1 - - [28/Jul/2021 11:15:12] "GET /agent/register/agent/xxx HTTP/1.1 200 0" 0.001983  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:15:12.362 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:15:12.517 [server.go:2843]  ::1 - - [28/Jul/2021 11:15:12] "GET /agent/register/agent/xxx HTTP/1.1 200 0" 0.002000  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:15:12.563 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:15:52.774 [server.go:2843]  ::1 - - [28/Jul/2021 11:15:52] "POST /agent/register/agent/xxx HTTP/1.1 200 0" 0.003996  PostmanRuntime/7.28.2
+2021/07/28 23:15:59.275 [authorization.go:31]  ::1 - - [01/Jan/0001 12:00:00] "GET /agent/query HTTP/1.1 302 0" 0.000000 http://localhost:8888/alert/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:15:59.275 [server.go:2843]  ::1 - - [28/Jul/2021 11:15:59] "GET /agent/query HTTP/1.1 302 0" 0.006000 http://localhost:8888/alert/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:15:59.296 [server.go:2843]  ::1 - - [28/Jul/2021 11:15:59] "GET /auth/login HTTP/1.1 200 0" 0.012999 http://localhost:8888/alert/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:15:59.370 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:16:02.676 [auth.go:40]  ::1 - - [01/Jan/0001 12:00:00] "POST /auth/login HTTP/1.1 302 0" 0.000000 http://localhost:8888/auth/login Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:16:02.677 [server.go:2843]  ::1 - - [28/Jul/2021 11:16:02] "POST /auth/login HTTP/1.1 302 0" 0.174037 http://localhost:8888/auth/login Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:16:02.703 [server.go:2843]  ::1 - - [28/Jul/2021 11:16:02] "GET /user/query HTTP/1.1 200 0" 0.017002 http://localhost:8888/auth/login Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:16:02.776 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:16:04.022 [server.go:2843]  ::1 - - [28/Jul/2021 11:16:04] "GET /agent/query HTTP/1.1 200 0" 0.021005 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:16:04.088 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:16:32.543 [server.go:2843]  ::1 - - [28/Jul/2021 11:16:32] "POST /agent/register HTTP/1.1 200 0" 0.012998  PostmanRuntime/7.28.2
+2021/07/28 23:16:35.988 [server.go:2843]  ::1 - - [28/Jul/2021 11:16:35] "GET /agent/query HTTP/1.1 200 0" 0.021005 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:16:36.047 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:17:19.410 [server.go:2843]  ::1 - - [28/Jul/2021 11:17:19] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.020517  Go-http-client/1.1
+2021/07/28 23:17:19.427 [server.go:2843]  ::1 - - [28/Jul/2021 11:17:19] "POST /agent/register/agent/registert/ HTTP/1.1 200 0" 0.037521  Go-http-client/1.1
+2021/07/28 23:17:19.446 [server.go:2843]  ::1 - - [28/Jul/2021 11:17:19] "POST /agent/register/ HTTP/1.1 200 0" 0.056528  Go-http-client/1.1
+2021/07/28 23:17:48.531 [server.go:2843]  ::1 - - [28/Jul/2021 11:17:48] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.116026  Go-http-client/1.1
+2021/07/28 23:17:48.536 [server.go:2843]  ::1 - - [28/Jul/2021 11:17:48] "POST /agent/register/agent/registert/ HTTP/1.1 200 0" 0.121027  Go-http-client/1.1
+2021/07/28 23:17:48.540 [server.go:2843]  ::1 - - [28/Jul/2021 11:17:48] "POST /agent/register/ HTTP/1.1 200 0" 0.125028  Go-http-client/1.1
+2021/07/28 23:17:58.425 [server.go:2843]  ::1 - - [28/Jul/2021 11:17:58] "POST /agent/register/ HTTP/1.1 200 0" 0.012004  Go-http-client/1.1
+2021/07/28 23:18:05.634 [server.go:2843]  ::1 - - [28/Jul/2021 11:18:05] "GET /agent/register/ HTTP/1.1 200 0" 0.002001  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:18:05.748 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:18:08.420 [server.go:2843]  ::1 - - [28/Jul/2021 11:18:08] "POST /agent/register/ HTTP/1.1 200 0" 0.018004  Go-http-client/1.1
+2021/07/28 23:18:18.420 [server.go:2843]  ::1 - - [28/Jul/2021 11:18:18] "POST /agent/register/ HTTP/1.1 200 0" 0.008002  Go-http-client/1.1
+2021/07/28 23:18:28.421 [server.go:2843]  ::1 - - [28/Jul/2021 11:18:28] "POST /agent/register/ HTTP/1.1 200 0" 0.007985  Go-http-client/1.1
+2021/07/28 23:18:38.411 [server.go:2843]  ::1 - - [28/Jul/2021 11:18:38] "POST /agent/register/ HTTP/1.1 200 0" 0.009006  Go-http-client/1.1
+2021/07/28 23:18:48.409 [server.go:2843]  ::1 - - [28/Jul/2021 11:18:48] "POST /agent/register/ HTTP/1.1 200 0" 0.008998  Go-http-client/1.1
+2021/07/28 23:18:48.412 [server.go:2843]  ::1 - - [28/Jul/2021 11:18:48] "POST /agent/register/agent/config/ HTTP/1.1 200 0" 0.011998  Go-http-client/1.1
+2021/07/28 23:18:58.408 [server.go:2843]  ::1 - - [28/Jul/2021 11:18:58] "POST /agent/register/ HTTP/1.1 200 0" 0.009986  Go-http-client/1.1
+2021/07/28 23:19:08.096 [server.go:2843]  ::1 - - [28/Jul/2021 11:19:08] "POST /agent/register/ HTTP/1.1 200 0" 0.014006  Go-http-client/1.1
+2021/07/28 23:19:08.100 [server.go:2843]  ::1 - - [28/Jul/2021 11:19:08] "POST /agent/register/ HTTP/1.1 200 0" 0.018005  Go-http-client/1.1
+2021/07/28 23:19:08.113 [server.go:2843]  ::1 - - [28/Jul/2021 11:19:08] "POST /agent/register/ HTTP/1.1 200 0" 0.031010  Go-http-client/1.1
+2021/07/28 23:19:17.825 [server.go:2843]  ::1 - - [28/Jul/2021 11:19:17] "GET /agent/query HTTP/1.1 200 0" 0.020005 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:19:17.885 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:19:18.089 [server.go:2843]  ::1 - - [28/Jul/2021 11:19:18] "POST /agent/register/ HTTP/1.1 200 0" 0.007979  Go-http-client/1.1
+2021/07/28 23:19:19.299 [server.go:2843]  ::1 - - [28/Jul/2021 11:19:19] "GET /agent/query HTTP/1.1 200 0" 0.017004 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:19:19.356 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:19:19.731 [server.go:2843]  ::1 - - [28/Jul/2021 11:19:19] "GET /agent/query HTTP/1.1 200 0" 0.017009 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:19:19.788 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:19:19.919 [server.go:2843]  ::1 - - [28/Jul/2021 11:19:19] "GET /agent/query HTTP/1.1 200 0" 0.023005 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:19:19.979 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:19:20.072 [server.go:2843]  ::1 - - [28/Jul/2021 11:19:20] "GET /agent/query HTTP/1.1 200 0" 0.017005 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:19:20.130 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:19:20.234 [server.go:2843]  ::1 - - [28/Jul/2021 11:19:20] "GET /agent/query HTTP/1.1 200 0" 0.017020 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:19:20.292 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:19:20.402 [server.go:2843]  ::1 - - [28/Jul/2021 11:19:20] "GET /agent/query HTTP/1.1 200 0" 0.016514 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:19:20.459 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:19:20.610 [server.go:2843]  ::1 - - [28/Jul/2021 11:19:20] "GET /agent/query HTTP/1.1 200 0" 0.019004 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:19:20.670 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:19:28.079 [server.go:2843]  ::1 - - [28/Jul/2021 11:19:28] "POST /agent/register/ HTTP/1.1 200 0" 0.010000  Go-http-client/1.1
+2021/07/28 23:19:38.096 [server.go:2843]  ::1 - - [28/Jul/2021 11:19:38] "POST /agent/register/ HTTP/1.1 200 0" 0.014006  Go-http-client/1.1
+2021/07/28 23:19:48.082 [server.go:2843]  ::1 - - [28/Jul/2021 11:19:48] "POST /agent/register/ HTTP/1.1 200 0" 0.009001  Go-http-client/1.1
+2021/07/28 23:20:03.154 [server.go:2843]  ::1 - - [28/Jul/2021 11:20:03] "POST /agent/register/ HTTP/1.1 200 0" 0.011003  Go-http-client/1.1
+2021/07/28 23:20:03.249 [server.go:2843]  ::1 - - [28/Jul/2021 11:20:03] "POST /agent/register/ HTTP/1.1 200 0" 0.106563  Go-http-client/1.1
+2021/07/28 23:20:03.253 [server.go:2843]  ::1 - - [28/Jul/2021 11:20:03] "POST /agent/register/ HTTP/1.1 200 0" 0.109570  Go-http-client/1.1
+2021/07/28 23:20:13.136 [server.go:2843]  ::1 - - [28/Jul/2021 11:20:13] "POST /agent/register/ HTTP/1.1 200 0" 0.008985  Go-http-client/1.1
+2021/07/28 23:20:23.146 [server.go:2843]  ::1 - - [28/Jul/2021 11:20:23] "POST /agent/register/ HTTP/1.1 200 0" 0.017013  Go-http-client/1.1
+2021/07/28 23:20:23.635 [server.go:2843]  ::1 - - [28/Jul/2021 11:20:23] "GET /agent/register/ HTTP/1.1 200 0" 0.002001  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:20:23.777 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:20:33.149 [server.go:2843]  ::1 - - [28/Jul/2021 11:20:33] "POST /agent/register/ HTTP/1.1 200 0" 0.009986  Go-http-client/1.1
+2021/07/28 23:20:43.148 [server.go:2843]  ::1 - - [28/Jul/2021 11:20:43] "POST /agent/register/ HTTP/1.1 200 0" 0.008004  Go-http-client/1.1
+2021/07/28 23:20:53.153 [server.go:2843]  ::1 - - [28/Jul/2021 11:20:53] "POST /agent/register/ HTTP/1.1 200 0" 0.009985  Go-http-client/1.1
+2021/07/28 23:21:03.156 [server.go:2843]  ::1 - - [28/Jul/2021 11:21:03] "POST /agent/register/ HTTP/1.1 200 0" 0.016005  Go-http-client/1.1
+2021/07/28 23:21:03.157 [server.go:2843]  ::1 - - [28/Jul/2021 11:21:03] "POST /agent/register/ HTTP/1.1 200 0" 0.016004  Go-http-client/1.1
+2021/07/28 23:21:13.137 [server.go:2843]  ::1 - - [28/Jul/2021 11:21:13] "POST /agent/register/ HTTP/1.1 200 0" 0.007986  Go-http-client/1.1
+2021/07/28 23:21:17.046 [server.go:2843]  ::1 - - [28/Jul/2021 11:21:17] "GET /agent/query HTTP/1.1 200 0" 0.019995 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:21:17.109 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:21:18.082 [server.go:2843]  ::1 - - [28/Jul/2021 11:21:18] "GET /agent/query HTTP/1.1 200 0" 0.023000 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:21:18.142 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:21:18.967 [server.go:2843]  ::1 - - [28/Jul/2021 11:21:18] "GET /agent/query HTTP/1.1 200 0" 0.019006 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:21:19.074 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:21:23.147 [server.go:2843]  ::1 - - [28/Jul/2021 11:21:23] "POST /agent/register/ HTTP/1.1 200 0" 0.007003  Go-http-client/1.1
+2021/07/28 23:21:33.138 [server.go:2843]  ::1 - - [28/Jul/2021 11:21:33] "POST /agent/register/ HTTP/1.1 200 0" 0.008003  Go-http-client/1.1
+2021/07/28 23:21:43.139 [server.go:2843]  ::1 - - [28/Jul/2021 11:21:43] "POST /agent/register/ HTTP/1.1 200 0" 0.009999  Go-http-client/1.1
+2021/07/28 23:21:53.145 [server.go:2843]  ::1 - - [28/Jul/2021 11:21:53] "POST /agent/register/ HTTP/1.1 200 0" 0.006988  Go-http-client/1.1
+2021/07/28 23:22:10.731 [server.go:2843]  ::1 - - [28/Jul/2021 11:22:10] "POST /agent/register/ HTTP/1.1 200 0" 0.008004  Go-http-client/1.1
+2021/07/28 23:22:10.732 [server.go:2843]  ::1 - - [28/Jul/2021 11:22:10] "POST /agent/register/ HTTP/1.1 200 0" 0.011003  Go-http-client/1.1
+2021/07/28 23:22:10.739 [server.go:2843]  ::1 - - [28/Jul/2021 11:22:10] "POST /agent/register/ HTTP/1.1 200 0" 0.016005  Go-http-client/1.1
+2021/07/28 23:22:20.720 [server.go:2843]  ::1 - - [28/Jul/2021 11:22:20] "POST /agent/register/ HTTP/1.1 200 0" 0.007988  Go-http-client/1.1
+2021/07/28 23:22:30.727 [server.go:2843]  ::1 - - [28/Jul/2021 11:22:30] "POST /agent/register/ HTTP/1.1 200 0" 0.007984  Go-http-client/1.1
+2021/07/28 23:22:40.723 [server.go:2843]  ::1 - - [28/Jul/2021 11:22:40] "POST /agent/register/ HTTP/1.1 200 0" 0.006996  Go-http-client/1.1
+2021/07/28 23:22:50.719 [server.go:2843]  ::1 - - [28/Jul/2021 11:22:50] "POST /agent/register/ HTTP/1.1 200 0" 0.010004  Go-http-client/1.1
+2021/07/28 23:23:00.716 [server.go:2843]  ::1 - - [28/Jul/2021 11:23:00] "POST /agent/register/ HTTP/1.1 200 0" 0.009001  Go-http-client/1.1
+2021/07/28 23:23:10.727 [server.go:2843]  ::1 - - [28/Jul/2021 11:23:10] "POST /agent/register/ HTTP/1.1 200 0" 0.020004  Go-http-client/1.1
+2021/07/28 23:23:10.735 [server.go:2843]  ::1 - - [28/Jul/2021 11:23:10] "POST /agent/register/ HTTP/1.1 200 0" 0.028004  Go-http-client/1.1
+2021/07/28 23:23:20.722 [server.go:2843]  ::1 - - [28/Jul/2021 11:23:20] "POST /agent/register/ HTTP/1.1 200 0" 0.012000  Go-http-client/1.1
+2021/07/28 23:23:30.719 [server.go:2843]  ::1 - - [28/Jul/2021 11:23:30] "POST /agent/register/ HTTP/1.1 200 0" 0.007999  Go-http-client/1.1
+2021/07/28 23:23:40.773 [server.go:2843]  ::1 - - [28/Jul/2021 11:23:40] "POST /agent/register/ HTTP/1.1 200 0" 0.010003  Go-http-client/1.1
+2021/07/28 23:23:50.719 [server.go:2843]  ::1 - - [28/Jul/2021 11:23:50] "POST /agent/register/ HTTP/1.1 200 0" 0.008003  Go-http-client/1.1
+2021/07/28 23:24:00.718 [server.go:2843]  ::1 - - [28/Jul/2021 11:24:00] "POST /agent/register/ HTTP/1.1 200 0" 0.008002  Go-http-client/1.1
+2021/07/28 23:24:10.719 [server.go:2843]  ::1 - - [28/Jul/2021 11:24:10] "POST /agent/register/ HTTP/1.1 200 0" 0.013000  Go-http-client/1.1
+2021/07/28 23:24:10.721 [server.go:2843]  ::1 - - [28/Jul/2021 11:24:10] "POST /agent/register/ HTTP/1.1 200 0" 0.015001  Go-http-client/1.1
+2021/07/28 23:24:20.818 [server.go:2843]  ::1 - - [28/Jul/2021 11:24:20] "POST /agent/register/ HTTP/1.1 200 0" 0.105084  Go-http-client/1.1
+2021/07/28 23:24:30.721 [server.go:2843]  ::1 - - [28/Jul/2021 11:24:30] "POST /agent/register/ HTTP/1.1 200 0" 0.007986  Go-http-client/1.1
+2021/07/28 23:24:40.715 [server.go:2843]  ::1 - - [28/Jul/2021 11:24:40] "POST /agent/register/ HTTP/1.1 200 0" 0.007995  Go-http-client/1.1
+2021/07/28 23:24:50.816 [server.go:2843]  ::1 - - [28/Jul/2021 11:24:50] "POST /agent/register/ HTTP/1.1 200 0" 0.098658  Go-http-client/1.1
+2021/07/28 23:24:59.870 [server.go:2843]  ::1 - - [28/Jul/2021 11:24:59] "GET /agent/query HTTP/1.1 200 0" 0.028008 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:24:59.943 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:25:00.465 [server.go:2843]  ::1 - - [28/Jul/2021 11:25:00] "GET /agent/query HTTP/1.1 200 0" 0.018727 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:25:00.530 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:25:00.621 [server.go:2843]  ::1 - - [28/Jul/2021 11:25:00] "GET /agent/query HTTP/1.1 200 0" 0.021004 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:25:00.682 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:25:00.715 [server.go:2843]  ::1 - - [28/Jul/2021 11:25:00] "POST /agent/register/ HTTP/1.1 200 0" 0.007998  Go-http-client/1.1
+2021/07/28 23:25:00.781 [server.go:2843]  ::1 - - [28/Jul/2021 11:25:00] "GET /agent/query HTTP/1.1 200 0" 0.018005 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:25:00.837 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:25:00.946 [server.go:2843]  ::1 - - [28/Jul/2021 11:25:00] "GET /agent/query HTTP/1.1 200 0" 0.018002 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:25:01.005 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:25:01.133 [server.go:2843]  ::1 - - [28/Jul/2021 11:25:01] "GET /agent/query HTTP/1.1 200 0" 0.017022 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:25:01.189 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:25:10.722 [server.go:2843]  ::1 - - [28/Jul/2021 11:25:10] "POST /agent/register/ HTTP/1.1 200 0" 0.010004  Go-http-client/1.1
+2021/07/28 23:25:10.726 [server.go:2843]  ::1 - - [28/Jul/2021 11:25:10] "POST /agent/register/ HTTP/1.1 200 0" 0.014005  Go-http-client/1.1
+2021/07/28 23:25:20.723 [server.go:2843]  ::1 - - [28/Jul/2021 11:25:20] "POST /agent/register/ HTTP/1.1 200 0" 0.006987  Go-http-client/1.1
+2021/07/28 23:25:30.721 [server.go:2843]  ::1 - - [28/Jul/2021 11:25:30] "POST /agent/register/ HTTP/1.1 200 0" 0.007984  Go-http-client/1.1
+2021/07/28 23:25:37.000 [server.go:2843]  ::1 - - [28/Jul/2021 11:25:36] "GET /agent/modify?pk=24 HTTP/1.1 200 0" 0.021007 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:25:37.148 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:25:40.715 [server.go:2843]  ::1 - - [28/Jul/2021 11:25:40] "POST /agent/register/ HTTP/1.1 200 0" 0.009002  Go-http-client/1.1
+2021/07/28 23:25:40.866 [agent.go:31]  ::1 - - [01/Jan/0001 12:00:00] "POST /agent/modify HTTP/1.1 302 0" 0.000000 http://localhost:8888/agent/modify?pk=24 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:25:40.866 [server.go:2843]  ::1 - - [28/Jul/2021 11:25:40] "POST /agent/modify HTTP/1.1 302 0" 0.013004 http://localhost:8888/agent/modify?pk=24 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:25:40.892 [server.go:2843]  ::1 - - [28/Jul/2021 11:25:40] "GET /agent/query HTTP/1.1 200 0" 0.019008 http://localhost:8888/agent/modify?pk=24 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:25:40.955 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:25:50.722 [server.go:2843]  ::1 - - [28/Jul/2021 11:25:50] "POST /agent/register/ HTTP/1.1 200 0" 0.010000  Go-http-client/1.1
+2021/07/28 23:26:00.727 [server.go:2843]  ::1 - - [28/Jul/2021 11:26:00] "POST /agent/register/ HTTP/1.1 200 0" 0.008003  Go-http-client/1.1
+2021/07/28 23:26:10.810 [server.go:2843]  ::1 - - [28/Jul/2021 11:26:10] "POST /agent/register/ HTTP/1.1 200 0" 0.102009  Go-http-client/1.1
+2021/07/28 23:26:10.812 [server.go:2843]  ::1 - - [28/Jul/2021 11:26:10] "POST /agent/register/ HTTP/1.1 200 0" 0.104009  Go-http-client/1.1
+2021/07/28 23:26:20.713 [server.go:2843]  ::1 - - [28/Jul/2021 11:26:20] "POST /agent/register/ HTTP/1.1 200 0" 0.007983  Go-http-client/1.1
+2021/07/28 23:26:30.720 [server.go:2843]  ::1 - - [28/Jul/2021 11:26:30] "POST /agent/register/ HTTP/1.1 200 0" 0.007003  Go-http-client/1.1
+2021/07/28 23:26:40.721 [server.go:2843]  ::1 - - [28/Jul/2021 11:26:40] "POST /agent/register/ HTTP/1.1 200 0" 0.009002  Go-http-client/1.1
+2021/07/28 23:26:50.718 [server.go:2843]  ::1 - - [28/Jul/2021 11:26:50] "POST /agent/register/ HTTP/1.1 200 0" 0.011003  Go-http-client/1.1
+2021/07/28 23:26:57.259 [server.go:2843]  ::1 - - [28/Jul/2021 11:26:57] "POST /agent/register/ HTTP/1.1 200 0" 0.012004  Go-http-client/1.1
+2021/07/28 23:26:57.259 [server.go:2843]  ::1 - - [28/Jul/2021 11:26:57] "POST /agent/register/ HTTP/1.1 200 0" 0.012004  Go-http-client/1.1
+2021/07/28 23:26:57.268 [server.go:2843]  ::1 - - [28/Jul/2021 11:26:57] "POST /agent/register/ HTTP/1.1 200 0" 0.019007  Go-http-client/1.1
+2021/07/28 23:27:07.255 [server.go:2843]  ::1 - - [28/Jul/2021 11:27:07] "POST /agent/register/ HTTP/1.1 200 0" 0.023006  Go-http-client/1.1
+2021/07/28 23:27:17.245 [server.go:2843]  ::1 - - [28/Jul/2021 11:27:17] "POST /agent/register/ HTTP/1.1 200 0" 0.008002  Go-http-client/1.1
+2021/07/28 23:27:27.255 [server.go:2843]  ::1 - - [28/Jul/2021 11:27:27] "POST /agent/register/ HTTP/1.1 200 0" 0.009001  Go-http-client/1.1
+2021/07/28 23:27:37.256 [server.go:2843]  ::1 - - [28/Jul/2021 11:27:37] "POST /agent/register/ HTTP/1.1 200 0" 0.017003  Go-http-client/1.1
+2021/07/28 23:27:47.243 [server.go:2843]  ::1 - - [28/Jul/2021 11:27:47] "POST /agent/register/ HTTP/1.1 200 0" 0.010003  Go-http-client/1.1
+2021/07/28 23:27:57.255 [server.go:2843]  ::1 - - [28/Jul/2021 11:27:57] "POST /agent/register/ HTTP/1.1 200 0" 0.009983  Go-http-client/1.1
+2021/07/28 23:27:57.258 [server.go:2843]  ::1 - - [28/Jul/2021 11:27:57] "POST /agent/register/ HTTP/1.1 200 0" 0.012984  Go-http-client/1.1
+2021/07/28 23:28:07.241 [server.go:2843]  ::1 - - [28/Jul/2021 11:28:07] "POST /agent/register/ HTTP/1.1 200 0" 0.008002  Go-http-client/1.1
+2021/07/28 23:28:17.246 [server.go:2843]  ::1 - - [28/Jul/2021 11:28:17] "POST /agent/register/ HTTP/1.1 200 0" 0.008001  Go-http-client/1.1
+2021/07/28 23:28:27.254 [server.go:2843]  ::1 - - [28/Jul/2021 11:28:27] "POST /agent/register/ HTTP/1.1 200 0" 0.011002  Go-http-client/1.1
+2021/07/28 23:28:37.263 [server.go:2843]  ::1 - - [28/Jul/2021 11:28:37] "POST /agent/register/ HTTP/1.1 200 0" 0.013007  Go-http-client/1.1
+2021/07/28 23:28:47.247 [server.go:2843]  ::1 - - [28/Jul/2021 11:28:47] "POST /agent/register/ HTTP/1.1 200 0" 0.007002  Go-http-client/1.1
+2021/07/28 23:28:57.245 [server.go:2843]  ::1 - - [28/Jul/2021 11:28:57] "POST /agent/register/ HTTP/1.1 200 0" 0.010005  Go-http-client/1.1
+2021/07/28 23:28:57.248 [server.go:2843]  ::1 - - [28/Jul/2021 11:28:57] "POST /agent/register/ HTTP/1.1 200 0" 0.013004  Go-http-client/1.1
+2021/07/28 23:29:07.240 [server.go:2843]  ::1 - - [28/Jul/2021 11:29:07] "POST /agent/register/ HTTP/1.1 200 0" 0.007002  Go-http-client/1.1
+2021/07/28 23:29:17.242 [server.go:2843]  ::1 - - [28/Jul/2021 11:29:17] "POST /agent/register/ HTTP/1.1 200 0" 0.009006  Go-http-client/1.1
+2021/07/28 23:29:27.250 [server.go:2843]  ::1 - - [28/Jul/2021 11:29:27] "POST /agent/register/ HTTP/1.1 200 0" 0.009005  Go-http-client/1.1
+2021/07/28 23:29:37.268 [server.go:2843]  ::1 - - [28/Jul/2021 11:29:37] "POST /agent/register/ HTTP/1.1 200 0" 0.019006  Go-http-client/1.1
+2021/07/28 23:29:47.255 [server.go:2843]  ::1 - - [28/Jul/2021 11:29:47] "POST /agent/register/ HTTP/1.1 200 0" 0.010003  Go-http-client/1.1
+2021/07/28 23:29:57.249 [server.go:2843]  ::1 - - [28/Jul/2021 11:29:57] "POST /agent/register/ HTTP/1.1 200 0" 0.011005  Go-http-client/1.1
+2021/07/28 23:29:57.253 [server.go:2843]  ::1 - - [28/Jul/2021 11:29:57] "POST /agent/register/ HTTP/1.1 200 0" 0.015005  Go-http-client/1.1
+2021/07/28 23:30:07.242 [server.go:2843]  ::1 - - [28/Jul/2021 11:30:07] "POST /agent/register/ HTTP/1.1 200 0" 0.012004  Go-http-client/1.1
+2021/07/28 23:30:17.251 [server.go:2843]  ::1 - - [28/Jul/2021 11:30:17] "POST /agent/register/ HTTP/1.1 200 0" 0.014005  Go-http-client/1.1
+2021/07/28 23:30:27.252 [server.go:2843]  ::1 - - [28/Jul/2021 11:30:27] "POST /agent/register/ HTTP/1.1 200 0" 0.008020  Go-http-client/1.1
+2021/07/28 23:30:37.255 [server.go:2843]  ::1 - - [28/Jul/2021 11:30:37] "POST /agent/register/ HTTP/1.1 200 0" 0.008996  Go-http-client/1.1
+2021/07/28 23:30:47.247 [server.go:2843]  ::1 - - [28/Jul/2021 11:30:47] "POST /agent/register/ HTTP/1.1 200 0" 0.010001  Go-http-client/1.1
+2021/07/28 23:30:57.250 [server.go:2843]  ::1 - - [28/Jul/2021 11:30:57] "POST /agent/register/ HTTP/1.1 200 0" 0.011002  Go-http-client/1.1
+2021/07/28 23:30:57.259 [server.go:2843]  ::1 - - [28/Jul/2021 11:30:57] "POST /agent/register/ HTTP/1.1 200 0" 0.019003  Go-http-client/1.1
+2021/07/28 23:31:07.241 [server.go:2843]  ::1 - - [28/Jul/2021 11:31:07] "POST /agent/register/ HTTP/1.1 200 0" 0.007984  Go-http-client/1.1
+2021/07/28 23:31:17.254 [server.go:2843]  ::1 - - [28/Jul/2021 11:31:17] "POST /agent/register/ HTTP/1.1 200 0" 0.008985  Go-http-client/1.1
+2021/07/28 23:31:27.252 [server.go:2843]  ::1 - - [28/Jul/2021 11:31:27] "POST /agent/register/ HTTP/1.1 200 0" 0.008990  Go-http-client/1.1
+2021/07/28 23:31:37.255 [server.go:2843]  ::1 - - [28/Jul/2021 11:31:37] "POST /agent/register/ HTTP/1.1 200 0" 0.008001  Go-http-client/1.1
+2021/07/28 23:31:47.254 [server.go:2843]  ::1 - - [28/Jul/2021 11:31:47] "POST /agent/register/ HTTP/1.1 200 0" 0.008007  Go-http-client/1.1
+2021/07/28 23:31:57.265 [server.go:2843]  ::1 - - [28/Jul/2021 11:31:57] "POST /agent/register/ HTTP/1.1 200 0" 0.019005  Go-http-client/1.1
+2021/07/28 23:31:57.268 [server.go:2843]  ::1 - - [28/Jul/2021 11:31:57] "POST /agent/register/ HTTP/1.1 200 0" 0.019006  Go-http-client/1.1
+2021/07/28 23:32:07.244 [server.go:2843]  ::1 - - [28/Jul/2021 11:32:07] "POST /agent/register/ HTTP/1.1 200 0" 0.011004  Go-http-client/1.1
+2021/07/28 23:32:17.254 [server.go:2843]  ::1 - - [28/Jul/2021 11:32:17] "POST /agent/register/ HTTP/1.1 200 0" 0.016004  Go-http-client/1.1
+2021/07/28 23:32:27.259 [server.go:2843]  ::1 - - [28/Jul/2021 11:32:27] "POST /agent/register/ HTTP/1.1 200 0" 0.011003  Go-http-client/1.1
+2021/07/28 23:32:37.259 [server.go:2843]  ::1 - - [28/Jul/2021 11:32:37] "POST /agent/register/ HTTP/1.1 200 0" 0.012004  Go-http-client/1.1
+2021/07/28 23:32:47.250 [server.go:2843]  ::1 - - [28/Jul/2021 11:32:47] "POST /agent/register/ HTTP/1.1 200 0" 0.008001  Go-http-client/1.1
+2021/07/28 23:32:57.262 [server.go:2843]  ::1 - - [28/Jul/2021 11:32:57] "POST /agent/register/ HTTP/1.1 200 0" 0.020005  Go-http-client/1.1
+2021/07/28 23:32:57.264 [server.go:2843]  ::1 - - [28/Jul/2021 11:32:57] "POST /agent/register/ HTTP/1.1 200 0" 0.022006  Go-http-client/1.1
+2021/07/28 23:33:07.259 [server.go:2843]  ::1 - - [28/Jul/2021 11:33:07] "POST /agent/register/ HTTP/1.1 200 0" 0.027052  Go-http-client/1.1
+2021/07/28 23:33:17.252 [server.go:2843]  ::1 - - [28/Jul/2021 11:33:17] "POST /agent/register/ HTTP/1.1 200 0" 0.008984  Go-http-client/1.1
+2021/07/28 23:33:27.252 [server.go:2843]  ::1 - - [28/Jul/2021 11:33:27] "POST /agent/register/ HTTP/1.1 200 0" 0.007997  Go-http-client/1.1
+2021/07/28 23:33:37.304 [server.go:2843]  ::1 - - [28/Jul/2021 11:33:37] "POST /agent/register/ HTTP/1.1 200 0" 0.048010  Go-http-client/1.1
+2021/07/28 23:33:47.247 [server.go:2843]  ::1 - - [28/Jul/2021 11:33:47] "POST /agent/register/ HTTP/1.1 200 0" 0.007984  Go-http-client/1.1
+2021/07/28 23:33:57.247 [server.go:2843]  ::1 - - [28/Jul/2021 11:33:57] "POST /agent/register/ HTTP/1.1 200 0" 0.011005  Go-http-client/1.1
+2021/07/28 23:33:57.249 [server.go:2843]  ::1 - - [28/Jul/2021 11:33:57] "POST /agent/register/ HTTP/1.1 200 0" 0.010002  Go-http-client/1.1
+2021/07/28 23:34:07.241 [server.go:2843]  ::1 - - [28/Jul/2021 11:34:07] "POST /agent/register/ HTTP/1.1 200 0" 0.007989  Go-http-client/1.1
+2021/07/28 23:34:17.241 [server.go:2843]  ::1 - - [28/Jul/2021 11:34:17] "POST /agent/register/ HTTP/1.1 200 0" 0.008001  Go-http-client/1.1
+2021/07/28 23:34:27.251 [server.go:2843]  ::1 - - [28/Jul/2021 11:34:27] "POST /agent/register/ HTTP/1.1 200 0" 0.008002  Go-http-client/1.1
+2021/07/28 23:34:37.245 [server.go:2843]  ::1 - - [28/Jul/2021 11:34:37] "POST /agent/register/ HTTP/1.1 200 0" 0.009000  Go-http-client/1.1
+2021/07/28 23:34:47.241 [server.go:2843]  ::1 - - [28/Jul/2021 11:34:47] "POST /agent/register/ HTTP/1.1 200 0" 0.007983  Go-http-client/1.1
+2021/07/28 23:34:57.260 [server.go:2843]  ::1 - - [28/Jul/2021 11:34:57] "POST /agent/register/ HTTP/1.1 200 0" 0.025007  Go-http-client/1.1
+2021/07/28 23:34:57.265 [server.go:2843]  ::1 - - [28/Jul/2021 11:34:57] "POST /agent/register/ HTTP/1.1 200 0" 0.030007  Go-http-client/1.1
+2021/07/28 23:35:07.243 [server.go:2843]  ::1 - - [28/Jul/2021 11:35:07] "POST /agent/register/ HTTP/1.1 200 0" 0.011001  Go-http-client/1.1
+2021/07/28 23:35:17.243 [server.go:2843]  ::1 - - [28/Jul/2021 11:35:17] "POST /agent/register/ HTTP/1.1 200 0" 0.007999  Go-http-client/1.1
+2021/07/28 23:35:27.254 [server.go:2843]  ::1 - - [28/Jul/2021 11:35:27] "POST /agent/register/ HTTP/1.1 200 0" 0.010000  Go-http-client/1.1
+2021/07/28 23:35:37.251 [server.go:2843]  ::1 - - [28/Jul/2021 11:35:37] "POST /agent/register/ HTTP/1.1 200 0" 0.008000  Go-http-client/1.1
+2021/07/28 23:35:47.244 [server.go:2843]  ::1 - - [28/Jul/2021 11:35:47] "POST /agent/register/ HTTP/1.1 200 0" 0.006998  Go-http-client/1.1
+2021/07/28 23:35:57.257 [server.go:2843]  ::1 - - [28/Jul/2021 11:35:57] "POST /agent/register/ HTTP/1.1 200 0" 0.008005  Go-http-client/1.1
+2021/07/28 23:35:57.264 [server.go:2843]  ::1 - - [28/Jul/2021 11:35:57] "POST /agent/register/ HTTP/1.1 200 0" 0.010002  Go-http-client/1.1
+2021/07/28 23:36:07.241 [server.go:2843]  ::1 - - [28/Jul/2021 11:36:07] "POST /agent/register/ HTTP/1.1 200 0" 0.008005  Go-http-client/1.1
+2021/07/28 23:36:17.245 [server.go:2843]  ::1 - - [28/Jul/2021 11:36:17] "POST /agent/register/ HTTP/1.1 200 0" 0.007999  Go-http-client/1.1
+2021/07/28 23:36:27.248 [server.go:2843]  ::1 - - [28/Jul/2021 11:36:27] "POST /agent/register/ HTTP/1.1 200 0" 0.009004  Go-http-client/1.1
+2021/07/28 23:36:37.251 [server.go:2843]  ::1 - - [28/Jul/2021 11:36:37] "POST /agent/register/ HTTP/1.1 200 0" 0.007984  Go-http-client/1.1
+2021/07/28 23:36:47.244 [server.go:2843]  ::1 - - [28/Jul/2021 11:36:47] "POST /agent/register/ HTTP/1.1 200 0" 0.009003  Go-http-client/1.1
+2021/07/28 23:36:57.244 [server.go:2843]  ::1 - - [28/Jul/2021 11:36:57] "POST /agent/register/ HTTP/1.1 200 0" 0.009000  Go-http-client/1.1
+2021/07/28 23:36:57.245 [server.go:2843]  ::1 - - [28/Jul/2021 11:36:57] "POST /agent/register/ HTTP/1.1 200 0" 0.011003  Go-http-client/1.1
+2021/07/28 23:37:07.241 [server.go:2843]  ::1 - - [28/Jul/2021 11:37:07] "POST /agent/register/ HTTP/1.1 200 0" 0.006984  Go-http-client/1.1
+2021/07/28 23:37:17.242 [server.go:2843]  ::1 - - [28/Jul/2021 11:37:17] "POST /agent/register/ HTTP/1.1 200 0" 0.008002  Go-http-client/1.1
+2021/07/28 23:37:27.245 [server.go:2843]  ::1 - - [28/Jul/2021 11:37:27] "POST /agent/register/ HTTP/1.1 200 0" 0.007999  Go-http-client/1.1
+2021/07/28 23:37:37.250 [server.go:2843]  ::1 - - [28/Jul/2021 11:37:37] "POST /agent/register/ HTTP/1.1 200 0" 0.011004  Go-http-client/1.1
+2021/07/28 23:37:47.252 [server.go:2843]  ::1 - - [28/Jul/2021 11:37:47] "POST /agent/register/ HTTP/1.1 200 0" 0.007001  Go-http-client/1.1
+2021/07/28 23:37:57.250 [server.go:2843]  ::1 - - [28/Jul/2021 11:37:57] "POST /agent/register/ HTTP/1.1 200 0" 0.012003  Go-http-client/1.1
+2021/07/28 23:37:57.261 [server.go:2843]  ::1 - - [28/Jul/2021 11:37:57] "POST /agent/register/ HTTP/1.1 200 0" 0.022005  Go-http-client/1.1
+2021/07/28 23:38:07.244 [server.go:2843]  ::1 - - [28/Jul/2021 11:38:07] "POST /agent/register/ HTTP/1.1 200 0" 0.009998  Go-http-client/1.1
+2021/07/28 23:38:17.264 [server.go:2843]  ::1 - - [28/Jul/2021 11:38:17] "POST /agent/register/ HTTP/1.1 200 0" 0.023003  Go-http-client/1.1
+2021/07/28 23:38:27.253 [server.go:2843]  ::1 - - [28/Jul/2021 11:38:27] "POST /agent/register/ HTTP/1.1 200 0" 0.006993  Go-http-client/1.1
+2021/07/28 23:38:37.242 [server.go:2843]  ::1 - - [28/Jul/2021 11:38:37] "POST /agent/register/ HTTP/1.1 200 0" 0.008001  Go-http-client/1.1
+2021/07/28 23:38:47.248 [server.go:2843]  ::1 - - [28/Jul/2021 11:38:47] "POST /agent/register/ HTTP/1.1 200 0" 0.011003  Go-http-client/1.1
+2021/07/28 23:38:57.255 [server.go:2843]  ::1 - - [28/Jul/2021 11:38:57] "POST /agent/register/ HTTP/1.1 200 0" 0.009999  Go-http-client/1.1
+2021/07/28 23:38:57.258 [server.go:2843]  ::1 - - [28/Jul/2021 11:38:57] "POST /agent/register/ HTTP/1.1 200 0" 0.013000  Go-http-client/1.1
+2021/07/28 23:39:07.240 [server.go:2843]  ::1 - - [28/Jul/2021 11:39:07] "POST /agent/register/ HTTP/1.1 200 0" 0.006989  Go-http-client/1.1
+2021/07/28 23:39:17.252 [server.go:2843]  ::1 - - [28/Jul/2021 11:39:17] "POST /agent/register/ HTTP/1.1 200 0" 0.007998  Go-http-client/1.1
+2021/07/28 23:39:27.248 [server.go:2843]  ::1 - - [28/Jul/2021 11:39:27] "POST /agent/register/ HTTP/1.1 200 0" 0.016005  Go-http-client/1.1
+2021/07/28 23:39:35.437 [server.go:2843]  ::1 - - [28/Jul/2021 11:39:35] "GET /agent/query HTTP/1.1 200 0" 0.020001 http://localhost:8888/agent/modify?pk=24 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:39:35.503 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:39:36.762 [server.go:2843]  ::1 - - [28/Jul/2021 11:39:36] "GET /agent/query HTTP/1.1 200 0" 0.018003 http://localhost:8888/agent/modify?pk=24 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:39:36.826 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:39:37.244 [server.go:2843]  ::1 - - [28/Jul/2021 11:39:37] "POST /agent/register/ HTTP/1.1 200 0" 0.008002  Go-http-client/1.1
+2021/07/28 23:39:37.749 [server.go:2843]  ::1 - - [28/Jul/2021 11:39:37] "GET /agent/query HTTP/1.1 200 0" 0.022004 http://localhost:8888/agent/modify?pk=24 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:39:37.813 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:39:47.244 [server.go:2843]  ::1 - - [28/Jul/2021 11:39:47] "POST /agent/register/ HTTP/1.1 200 0" 0.009001  Go-http-client/1.1
+2021/07/28 23:39:57.255 [server.go:2843]  ::1 - - [28/Jul/2021 11:39:57] "POST /agent/register/ HTTP/1.1 200 0" 0.011997  Go-http-client/1.1
+2021/07/28 23:39:57.256 [server.go:2843]  ::1 - - [28/Jul/2021 11:39:57] "POST /agent/register/ HTTP/1.1 200 0" 0.012998  Go-http-client/1.1
+2021/07/28 23:40:07.244 [server.go:2843]  ::1 - - [28/Jul/2021 11:40:07] "POST /agent/register/ HTTP/1.1 200 0" 0.012986  Go-http-client/1.1
+2021/07/28 23:40:30.452 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/28 23:40:30.454 [I] [asm_amd64.s:1374]  https server Running on https://:8443
+2021/07/28 23:42:57.847 [server.go:2843]  ::1 - - [28/Jul/2021 11:42:57] "POST /agent/register/ HTTP/1.1 200 0" 0.037015  Go-http-client/1.1
+2021/07/28 23:42:57.849 [server.go:2843]  ::1 - - [28/Jul/2021 11:42:57] "POST /agent/register/ HTTP/1.1 200 0" 0.040010  Go-http-client/1.1
+2021/07/28 23:42:57.852 [server.go:2843]  ::1 - - [28/Jul/2021 11:42:57] "POST /agent/register/ HTTP/1.1 200 0" 0.043010  Go-http-client/1.1
+2021/07/28 23:43:07.797 [server.go:2843]  ::1 - - [28/Jul/2021 11:43:07] "POST /agent/register/ HTTP/1.1 200 0" 0.009980  Go-http-client/1.1
+2021/07/28 23:43:17.801 [server.go:2843]  ::1 - - [28/Jul/2021 11:43:17] "POST /agent/register/ HTTP/1.1 200 0" 0.011003  Go-http-client/1.1
+2021/07/28 23:44:08.277 [server.go:2843]  ::1 - - [28/Jul/2021 11:44:08] "POST /agent/register HTTP/1.1 200 0" 0.017002  PostmanRuntime/7.28.2
+2021/07/28 23:44:49.620 [server.go:2843]  ::1 - - [28/Jul/2021 11:44:49] "POST /agent/register HTTP/1.1 200 0" 0.122027  PostmanRuntime/7.28.2
+2021/07/28 23:45:09.319 [server.go:2843]  ::1 - - [28/Jul/2021 11:45:09] "POST /agent/register/ HTTP/1.1 200 0" 0.015004  Go-http-client/1.1
+2021/07/28 23:45:09.336 [server.go:2843]  ::1 - - [28/Jul/2021 11:45:09] "POST /agent/register/ HTTP/1.1 200 0" 0.032008  Go-http-client/1.1
+2021/07/28 23:45:09.337 [server.go:2843]  ::1 - - [28/Jul/2021 11:45:09] "POST /agent/register/ HTTP/1.1 200 0" 0.033009  Go-http-client/1.1
+2021/07/28 23:45:19.300 [server.go:2843]  ::1 - - [28/Jul/2021 11:45:19] "POST /agent/register/ HTTP/1.1 200 0" 0.009985  Go-http-client/1.1
+2021/07/28 23:45:29.315 [server.go:2843]  ::1 - - [28/Jul/2021 11:45:29] "POST /agent/register/ HTTP/1.1 200 0" 0.009003  Go-http-client/1.1
+2021/07/28 23:45:39.302 [server.go:2843]  ::1 - - [28/Jul/2021 11:45:39] "POST /agent/register/ HTTP/1.1 200 0" 0.007983  Go-http-client/1.1
+2021/07/28 23:45:44.554 [server.go:2843]  ::1 - - [28/Jul/2021 11:45:44] "GET /agent/query HTTP/1.1 200 0" 0.028006 http://localhost:8888/agent/modify?pk=24 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:45:44.632 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:45:49.304 [server.go:2843]  ::1 - - [28/Jul/2021 11:45:49] "POST /agent/register/ HTTP/1.1 200 0" 0.006998  Go-http-client/1.1
+2021/07/28 23:45:50.829 [server.go:2843]  ::1 - - [28/Jul/2021 11:45:50] "GET /agent/modify?pk=27 HTTP/1.1 200 0" 0.027004 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:45:50.977 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:45:54.637 [agent.go:31]  ::1 - - [01/Jan/0001 12:00:00] "POST /agent/modify HTTP/1.1 302 0" 0.000000 http://localhost:8888/agent/modify?pk=27 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:45:54.638 [server.go:2843]  ::1 - - [28/Jul/2021 11:45:54] "POST /agent/modify HTTP/1.1 302 0" 0.014004 http://localhost:8888/agent/modify?pk=27 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:45:54.671 [server.go:2843]  ::1 - - [28/Jul/2021 11:45:54] "GET /agent/query HTTP/1.1 200 0" 0.025002 http://localhost:8888/agent/modify?pk=27 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:45:54.782 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:45:59.310 [server.go:2843]  ::1 - - [28/Jul/2021 11:45:59] "POST /agent/register/ HTTP/1.1 200 0" 0.009003  Go-http-client/1.1
+2021/07/28 23:46:09.305 [server.go:2843]  ::1 - - [28/Jul/2021 11:46:09] "POST /agent/register/ HTTP/1.1 200 0" 0.011003  Go-http-client/1.1
+2021/07/28 23:46:09.314 [server.go:2843]  ::1 - - [28/Jul/2021 11:46:09] "POST /agent/register/ HTTP/1.1 200 0" 0.020005  Go-http-client/1.1
+2021/07/28 23:47:12.321 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/28 23:47:12.322 [I] [asm_amd64.s:1374]  https server Running on https://:8443
+2021/07/28 23:47:36.321 [server.go:2843]  ::1 - - [28/Jul/2021 11:47:36] "POST /agent/register/ HTTP/1.1 200 0" 0.037562  Go-http-client/1.1
+2021/07/28 23:47:36.327 [server.go:2843]  ::1 - - [28/Jul/2021 11:47:36] "POST /agent/register/ HTTP/1.1 200 0" 0.043564  Go-http-client/1.1
+2021/07/28 23:47:36.341 [server.go:2843]  ::1 - - [28/Jul/2021 11:47:36] "POST /agent/register/ HTTP/1.1 200 0" 0.057565  Go-http-client/1.1
+2021/07/28 23:47:46.283 [server.go:2843]  ::1 - - [28/Jul/2021 11:47:46] "POST /agent/register/ HTTP/1.1 200 0" 0.009508  Go-http-client/1.1
+2021/07/28 23:47:56.295 [server.go:2843]  ::1 - - [28/Jul/2021 11:47:56] "POST /agent/register/ HTTP/1.1 200 0" 0.010000  Go-http-client/1.1
+2021/07/28 23:48:06.283 [server.go:2843]  ::1 - - [28/Jul/2021 11:48:06] "POST /agent/register/ HTTP/1.1 200 0" 0.009004  Go-http-client/1.1
+2021/07/28 23:48:16.287 [server.go:2843]  ::1 - - [28/Jul/2021 11:48:16] "POST /agent/register/ HTTP/1.1 200 0" 0.010000  Go-http-client/1.1
+2021/07/28 23:48:26.293 [server.go:2843]  ::1 - - [28/Jul/2021 11:48:26] "POST /agent/register/ HTTP/1.1 200 0" 0.008998  Go-http-client/1.1
+2021/07/28 23:48:36.290 [server.go:2843]  ::1 - - [28/Jul/2021 11:48:36] "POST /agent/register/ HTTP/1.1 200 0" 0.010004  Go-http-client/1.1
+2021/07/28 23:48:36.294 [server.go:2843]  ::1 - - [28/Jul/2021 11:48:36] "POST /agent/register/ HTTP/1.1 200 0" 0.014002  Go-http-client/1.1
+2021/07/28 23:48:46.358 [server.go:2843]  ::1 - - [28/Jul/2021 11:48:46] "POST /agent/register/ HTTP/1.1 200 0" 0.087750  Go-http-client/1.1
+2021/07/28 23:48:56.298 [server.go:2843]  ::1 - - [28/Jul/2021 11:48:56] "POST /agent/register/ HTTP/1.1 200 0" 0.012005  Go-http-client/1.1
+2021/07/28 23:49:10.935 [server.go:2843]  ::1 - - [28/Jul/2021 11:49:10] "POST /agent/register/ HTTP/1.1 200 0" 0.031006  Go-http-client/1.1
+2021/07/28 23:49:10.954 [server.go:2843]  ::1 - - [28/Jul/2021 11:49:10] "POST /agent/register/ HTTP/1.1 200 0" 0.048011  Go-http-client/1.1
+2021/07/28 23:49:11.077 [server.go:2843]  ::1 - - [28/Jul/2021 11:49:10] "POST /agent/register/ HTTP/1.1 200 0" 0.171039  Go-http-client/1.1
+2021/07/28 23:49:20.891 [server.go:2843]  ::1 - - [28/Jul/2021 11:49:20] "POST /agent/register/ HTTP/1.1 200 0" 0.011987  Go-http-client/1.1
+2021/07/28 23:49:30.909 [server.go:2843]  ::1 - - [28/Jul/2021 11:49:30] "POST /agent/register/ HTTP/1.1 200 0" 0.016999  Go-http-client/1.1
+2021/07/28 23:49:40.890 [server.go:2843]  ::1 - - [28/Jul/2021 11:49:40] "POST /agent/register/ HTTP/1.1 200 0" 0.008001  Go-http-client/1.1
+2021/07/28 23:49:50.893 [server.go:2843]  ::1 - - [28/Jul/2021 11:49:50] "POST /agent/register/ HTTP/1.1 200 0" 0.007985  Go-http-client/1.1
+2021/07/28 23:50:00.987 [server.go:2843]  ::1 - - [28/Jul/2021 11:50:00] "POST /agent/register/ HTTP/1.1 200 0" 0.100050  Go-http-client/1.1
+2021/07/28 23:50:10.889 [server.go:2843]  ::1 - - [28/Jul/2021 11:50:10] "POST /agent/register/ HTTP/1.1 200 0" 0.009002  Go-http-client/1.1
+2021/07/28 23:50:10.893 [server.go:2843]  ::1 - - [28/Jul/2021 11:50:10] "POST /agent/register/ HTTP/1.1 200 0" 0.012000  Go-http-client/1.1
+2021/07/28 23:50:20.895 [server.go:2843]  ::1 - - [28/Jul/2021 11:50:20] "POST /agent/register/ HTTP/1.1 200 0" 0.008987  Go-http-client/1.1
+2021/07/28 23:50:30.921 [server.go:2843]  ::1 - - [28/Jul/2021 11:50:30] "POST /agent/register/ HTTP/1.1 200 0" 0.020005  Go-http-client/1.1
+2021/07/28 23:50:40.894 [server.go:2843]  ::1 - - [28/Jul/2021 11:50:40] "POST /agent/register/ HTTP/1.1 200 0" 0.013004  Go-http-client/1.1
+2021/07/28 23:50:50.899 [server.go:2843]  ::1 - - [28/Jul/2021 11:50:50] "POST /agent/register/ HTTP/1.1 200 0" 0.007988  Go-http-client/1.1
+2021/07/28 23:51:02.730 [server.go:2843]  ::1 - - [28/Jul/2021 11:51:02] "POST /agent/register/ HTTP/1.1 200 0" 0.032006  Go-http-client/1.1
+2021/07/28 23:51:02.737 [server.go:2843]  ::1 - - [28/Jul/2021 11:51:02] "POST /agent/register/ HTTP/1.1 200 0" 0.040011  Go-http-client/1.1
+2021/07/28 23:51:02.773 [server.go:2843]  ::1 - - [28/Jul/2021 11:51:02] "POST /agent/register/ HTTP/1.1 200 0" 0.075022  Go-http-client/1.1
+2021/07/28 23:51:12.687 [server.go:2843]  ::1 - - [28/Jul/2021 11:51:12] "POST /agent/register/ HTTP/1.1 200 0" 0.010002  Go-http-client/1.1
+2021/07/28 23:51:22.687 [server.go:2843]  ::1 - - [28/Jul/2021 11:51:22] "POST /agent/register/ HTTP/1.1 200 0" 0.009005  Go-http-client/1.1
+2021/07/28 23:52:55.834 [server.go:2843]  ::1 - - [28/Jul/2021 11:52:55] "POST /agent/register/ HTTP/1.1 200 0" 0.003983  PostmanRuntime/7.28.2
+2021/07/28 23:53:05.095 [server.go:2843]  ::1 - - [28/Jul/2021 11:53:05] "POST /agent/register/ HTTP/1.1 200 0" 0.004998  PostmanRuntime/7.28.2
+2021/07/28 23:53:27.573 [server.go:2843]  ::1 - - [28/Jul/2021 11:53:27] "POST /agent/register/ HTTP/1.1 200 0" 0.022007  PostmanRuntime/7.28.2
+2021/07/28 23:54:05.901 [server.go:2843]  ::1 - - [28/Jul/2021 11:54:05] "POST /agent/register/ HTTP/1.1 200 0" 0.033007  Go-http-client/1.1
+2021/07/28 23:54:05.926 [server.go:2843]  ::1 - - [28/Jul/2021 11:54:05] "POST /agent/register/ HTTP/1.1 200 0" 0.055011  Go-http-client/1.1
+2021/07/28 23:54:05.933 [server.go:2843]  ::1 - - [28/Jul/2021 11:54:05] "POST /agent/register/ HTTP/1.1 200 0" 0.062012  Go-http-client/1.1
+2021/07/28 23:54:15.928 [server.go:2843]  ::1 - - [28/Jul/2021 11:54:15] "POST /agent/register/ HTTP/1.1 200 0" 0.071017  Go-http-client/1.1
+2021/07/28 23:54:23.943 [server.go:2843]  ::1 - - [28/Jul/2021 11:54:23] "GET /agent/query HTTP/1.1 200 0" 0.028006 http://localhost:8888/agent/modify?pk=27 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:54:24.021 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:54:25.876 [server.go:2843]  ::1 - - [28/Jul/2021 11:54:25] "POST /agent/register/ HTTP/1.1 200 0" 0.009003  Go-http-client/1.1
+2021/07/28 23:54:35.875 [server.go:2843]  ::1 - - [28/Jul/2021 11:54:35] "POST /agent/register/ HTTP/1.1 200 0" 0.009000  Go-http-client/1.1
+2021/07/28 23:55:12.059 [server.go:2843]  ::1 - - [28/Jul/2021 11:55:12] "POST /agent/register/ HTTP/1.1 200 0" 0.023019  Go-http-client/1.1
+2021/07/28 23:55:12.071 [server.go:2843]  ::1 - - [28/Jul/2021 11:55:12] "POST /agent/register/ HTTP/1.1 200 0" 0.035009  Go-http-client/1.1
+2021/07/28 23:55:12.091 [server.go:2843]  ::1 - - [28/Jul/2021 11:55:12] "POST /agent/register/ HTTP/1.1 200 0" 0.055013  Go-http-client/1.1
+2021/07/28 23:55:22.031 [server.go:2843]  ::1 - - [28/Jul/2021 11:55:22] "POST /agent/register/ HTTP/1.1 200 0" 0.013004  Go-http-client/1.1
+2021/07/28 23:55:32.035 [server.go:2843]  ::1 - - [28/Jul/2021 11:55:32] "POST /agent/register/ HTTP/1.1 200 0" 0.015005  Go-http-client/1.1
+2021/07/28 23:55:42.052 [server.go:2843]  ::1 - - [28/Jul/2021 11:55:42] "POST /agent/register/ HTTP/1.1 200 0" 0.021002  Go-http-client/1.1
+2021/07/28 23:55:52.031 [server.go:2843]  ::1 - - [28/Jul/2021 11:55:52] "POST /agent/register/ HTTP/1.1 200 0" 0.011001  Go-http-client/1.1
+2021/07/28 23:56:02.035 [server.go:2843]  ::1 - - [28/Jul/2021 11:56:02] "POST /agent/register/ HTTP/1.1 200 0" 0.015005  Go-http-client/1.1
+2021/07/28 23:56:12.075 [server.go:2843]  ::1 - - [28/Jul/2021 11:56:12] "POST /agent/register/ HTTP/1.1 200 0" 0.051013  Go-http-client/1.1
+2021/07/28 23:56:12.081 [server.go:2843]  ::1 - - [28/Jul/2021 11:56:12] "POST /agent/register/ HTTP/1.1 200 0" 0.057013  Go-http-client/1.1
+2021/07/28 23:56:22.040 [server.go:2843]  ::1 - - [28/Jul/2021 11:56:22] "POST /agent/register/ HTTP/1.1 200 0" 0.012002  Go-http-client/1.1
+2021/07/28 23:56:32.064 [server.go:2843]  ::1 - - [28/Jul/2021 11:56:32] "POST /agent/register/ HTTP/1.1 200 0" 0.029007  Go-http-client/1.1
+2021/07/28 23:56:42.041 [server.go:2843]  ::1 - - [28/Jul/2021 11:56:42] "POST /agent/register/ HTTP/1.1 200 0" 0.011524  Go-http-client/1.1
+2021/07/28 23:56:52.110 [server.go:2843]  ::1 - - [28/Jul/2021 11:56:52] "POST /agent/register/ HTTP/1.1 200 0" 0.090021  Go-http-client/1.1
+2021/07/28 23:57:02.033 [server.go:2843]  ::1 - - [28/Jul/2021 11:57:02] "POST /agent/register/ HTTP/1.1 200 0" 0.007019  Go-http-client/1.1
+2021/07/28 23:57:12.029 [server.go:2843]  ::1 - - [28/Jul/2021 11:57:12] "POST /agent/register/ HTTP/1.1 200 0" 0.008005  Go-http-client/1.1
+2021/07/28 23:57:12.032 [server.go:2843]  ::1 - - [28/Jul/2021 11:57:12] "POST /agent/register/ HTTP/1.1 200 0" 0.011004  Go-http-client/1.1
+2021/07/28 23:57:22.032 [server.go:2843]  ::1 - - [28/Jul/2021 11:57:22] "POST /agent/register/ HTTP/1.1 200 0" 0.011003  Go-http-client/1.1
+2021/07/28 23:57:24.834 [server.go:2843]  ::1 - - [28/Jul/2021 11:57:24] "POST /agent/register/ HTTP/1.1 200 0" 0.009005  PostmanRuntime/7.28.2
+2021/07/28 23:57:32.059 [server.go:2843]  ::1 - - [28/Jul/2021 11:57:32] "POST /agent/register/ HTTP/1.1 200 0" 0.029007  Go-http-client/1.1
+2021/07/28 23:57:34.649 [server.go:2843]  ::1 - - [28/Jul/2021 11:57:34] "GET /agent/query HTTP/1.1 200 0" 0.019005 http://localhost:8888/agent/modify?pk=27 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:57:34.720 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:57:38.582 [server.go:2843]  ::1 - - [28/Jul/2021 11:57:38] "GET /agent/query HTTP/1.1 200 0" 0.020005 http://localhost:8888/agent/modify?pk=27 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:57:38.649 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:57:42.036 [server.go:2843]  ::1 - - [28/Jul/2021 11:57:42] "POST /agent/register/ HTTP/1.1 200 0" 0.008002  Go-http-client/1.1
+2021/07/28 23:57:52.042 [server.go:2843]  ::1 - - [28/Jul/2021 11:57:52] "POST /agent/register/ HTTP/1.1 200 0" 0.013000  Go-http-client/1.1
+2021/07/28 23:58:02.037 [server.go:2843]  ::1 - - [28/Jul/2021 11:58:02] "POST /agent/register/ HTTP/1.1 200 0" 0.010002  Go-http-client/1.1
+2021/07/28 23:58:12.045 [server.go:2843]  ::1 - - [28/Jul/2021 11:58:12] "POST /agent/register/ HTTP/1.1 200 0" 0.011003  Go-http-client/1.1
+2021/07/28 23:58:12.047 [server.go:2843]  ::1 - - [28/Jul/2021 11:58:12] "POST /agent/register/ HTTP/1.1 200 0" 0.013003  Go-http-client/1.1
+2021/07/28 23:58:22.038 [server.go:2843]  ::1 - - [28/Jul/2021 11:58:22] "POST /agent/register/ HTTP/1.1 200 0" 0.008003  Go-http-client/1.1
+2021/07/28 23:58:32.038 [server.go:2843]  ::1 - - [28/Jul/2021 11:58:32] "POST /agent/register/ HTTP/1.1 200 0" 0.008003  Go-http-client/1.1
+2021/07/28 23:58:36.920 [server.go:2843]  ::1 - - [28/Jul/2021 11:58:36] "GET /agent/query HTTP/1.1 200 0" 0.023004 http://localhost:8888/agent/modify?pk=27 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:58:36.980 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:58:42.031 [server.go:2843]  ::1 - - [28/Jul/2021 11:58:42] "POST /agent/register/ HTTP/1.1 200 0" 0.010003  Go-http-client/1.1
+2021/07/28 23:58:52.042 [server.go:2843]  ::1 - - [28/Jul/2021 11:58:52] "POST /agent/register/ HTTP/1.1 200 0" 0.008000  Go-http-client/1.1
+2021/07/28 23:59:02.038 [server.go:2843]  ::1 - - [28/Jul/2021 11:59:02] "POST /agent/register/ HTTP/1.1 200 0" 0.007988  Go-http-client/1.1
+2021/07/28 23:59:12.041 [server.go:2843]  ::1 - - [28/Jul/2021 11:59:12] "POST /agent/register/ HTTP/1.1 200 0" 0.017003  Go-http-client/1.1
+2021/07/28 23:59:12.048 [server.go:2843]  ::1 - - [28/Jul/2021 11:59:12] "POST /agent/register/ HTTP/1.1 200 0" 0.024003  Go-http-client/1.1
+2021/07/28 23:59:22.029 [server.go:2843]  ::1 - - [28/Jul/2021 11:59:22] "POST /agent/register/ HTTP/1.1 200 0" 0.010981  Go-http-client/1.1
+2021/07/28 23:59:32.042 [server.go:2843]  ::1 - - [28/Jul/2021 11:59:32] "POST /agent/register/ HTTP/1.1 200 0" 0.009003  Go-http-client/1.1
+2021/07/28 23:59:42.038 [server.go:2843]  ::1 - - [28/Jul/2021 11:59:42] "POST /agent/register/ HTTP/1.1 200 0" 0.008002  Go-http-client/1.1
+2021/07/28 23:59:46.150 [server.go:2843]  ::1 - - [28/Jul/2021 11:59:46] "GET /agent/query HTTP/1.1 200 0" 0.021007 http://localhost:8888/agent/modify?pk=27 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/28 23:59:46.221 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 23:59:52.029 [server.go:2843]  ::1 - - [28/Jul/2021 11:59:52] "POST /agent/register/ HTTP/1.1 200 0" 0.008000  Go-http-client/1.1

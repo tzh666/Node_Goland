@@ -1,0 +1,80 @@
+GET /agent/heartbeat/?uuid=8f24f9595e8c4607bf96722849990ce0 HTTP/1.1
+Host: localhost:8888
+User-Agent: Go-http-client/1.1
+Transfer-Encoding: chunked
+Cookie: beegosessionID=24dc4bf83df28c4a672ef3d7dad20fd1
+Accept-Encoding: gzip
+
+=================================
+
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+Date: Wed, 28 Jul 2021 17:18:58 GMT
+Server: beegoServer:1.12.3
+Set-Cookie: beegosessionID=24dc4bf83df28c4a672ef3d7dad20fd1; Path=/; HttpOnly; SameSite
+
+{
+  "code": "200"
+}
+GET /agent/config/?uuid=8f24f9595e8c4607bf96722849990ce0&version=0 HTTP/1.1
+Host: localhost:8888
+User-Agent: Go-http-client/1.1
+Transfer-Encoding: chunked
+Cookie: beegosessionID=362d6dab59ea99d8493577e9ecf15c23
+Accept-Encoding: gzip
+
+=================================
+
+HTTP/1.1 200 OK
+Content-Length: 53
+Content-Type: application/json; charset=utf-8
+Date: Wed, 28 Jul 2021 17:18:58 GMT
+Server: beegoServer:1.12.3
+Set-Cookie: beegosessionID=362d6dab59ea99d8493577e9ecf15c23; Path=/; HttpOnly; SameSite
+
+{
+  "code": "200",
+  "config": null,
+  "version": 0
+}
+POST /agent/register/ HTTP/1.1
+Host: localhost:8888
+User-Agent: Go-http-client/1.1
+Content-Length: 93
+Content-Type: application/json; charset=UTF-8
+Cookie: beegosessionID=73155a1b3e8a88e084dcdfab8971b3e0
+Accept-Encoding: gzip
+
+{"addr":"169.254.136.246","hostname":"taozhenhuan","uuid":"8f24f9595e8c4607bf96722849990ce0"}
+
+=================================
+
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+Date: Wed, 28 Jul 2021 17:18:58 GMT
+Server: beegoServer:1.12.3
+Set-Cookie: beegosessionID=73155a1b3e8a88e084dcdfab8971b3e0; Path=/; HttpOnly; SameSite
+
+{
+  "code": "200"
+}
+GET /agent/heartbeat/?uuid=8f24f9595e8c4607bf96722849990ce0 HTTP/1.1
+Host: localhost:8888
+User-Agent: Go-http-client/1.1
+Transfer-Encoding: chunked
+Cookie: beegosessionID=73155a1b3e8a88e084dcdfab8971b3e0; beegosessionID=73155a1b3e8a88e084dcdfab8971b3e0
+Accept-Encoding: gzip
+
+=================================
+
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+Date: Wed, 28 Jul 2021 17:19:08 GMT
+Server: beegoServer:1.12.3
+
+{
+  "code": "200"
+}

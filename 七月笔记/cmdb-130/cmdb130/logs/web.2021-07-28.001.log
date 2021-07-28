@@ -1,0 +1,166 @@
+2021/07/27 01:10:03.579 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/27 01:10:03.580 [I] [asm_amd64.s:1374]  https server Running on https://:8443
+2021/07/27 01:10:22.191 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/27 01:10:22.192 [I] [asm_amd64.s:1374]  https server Running on https://:8443
+2021/07/27 01:10:22.260 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:10:22.377 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:10:28.504 [server.go:2843]  172.16.10.112 - - [27/Jul/2021 01:10:28] "GET /prometheus/alert/ HTTP/1.1 200 0" 0.003003  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:10:28.557 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:10:30.242 [authorization.go:20]  127.0.0.1 - - [01/Jan/0001 12:00:00] "GET /agent/query HTTP/1.1 302 0" 0.000000 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:10:30.242 [server.go:2843]  127.0.0.1 - - [27/Jul/2021 01:10:30] "GET /agent/query HTTP/1.1 302 0" 0.002997 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:10:30.259 [server.go:2843]  127.0.0.1 - - [27/Jul/2021 01:10:30] "GET /auth/login HTTP/1.1 200 0" 0.010006 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:10:30.370 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:10:34.250 [auth.go:40]  127.0.0.1 - - [01/Jan/0001 12:00:00] "POST /auth/login HTTP/1.1 302 0" 0.000000 http://localhost:8888/auth/login Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:10:34.250 [server.go:2843]  127.0.0.1 - - [27/Jul/2021 01:10:34] "POST /auth/login HTTP/1.1 302 0" 0.169030 http://localhost:8888/auth/login Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:10:34.287 [server.go:2843]  127.0.0.1 - - [27/Jul/2021 01:10:34] "GET /user/query HTTP/1.1 200 0" 0.021006 http://localhost:8888/auth/login Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:10:34.367 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:10:35.610 [server.go:2843]  127.0.0.1 - - [27/Jul/2021 01:10:35] "GET /agent/query HTTP/1.1 200 0" 0.018007 http://localhost:8888/user/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:10:35.676 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:10:36.577 [server.go:2843]  127.0.0.1 - - [27/Jul/2021 01:10:36] "GET /alert/query HTTP/1.1 200 0" 0.019021 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:10:36.656 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:10:38.837 [server.go:2843]  127.0.0.1 - - [27/Jul/2021 01:10:38] "GET /agent/query HTTP/1.1 200 0" 0.016000 http://localhost:8888/alert/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:10:38.903 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:11:22.309 [server.go:2843]  172.16.10.112 - - [27/Jul/2021 01:11:22] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.024003  Alertmanager/0.21.0
+2021/07/27 01:13:37.574 [authorization.go:20]  ::1 - - [01/Jan/0001 12:00:00] "GET /agent/query HTTP/1.1 302 0" 0.000000  PostmanRuntime/7.28.2
+2021/07/27 01:13:37.574 [server.go:2843]  ::1 - - [27/Jul/2021 01:13:37] "GET /agent/query HTTP/1.1 302 0" 0.003003  PostmanRuntime/7.28.2
+2021/07/27 01:13:37.622 [server.go:2843]  ::1 - - [27/Jul/2021 01:13:37] "GET /auth/login HTTP/1.1 200 0" 0.009999 http://localhost:8888/agent/query PostmanRuntime/7.28.2
+2021/07/27 01:14:00.795 [error.go:441]  ::1 - - [01/Jan/0001 12:00:00] "POST /agent/reglster HTTP/1.1 404 0" 0.000000  PostmanRuntime/7.28.2
+2021/07/27 01:14:00.800 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:14:00.801 [server.go:2843]  ::1 - - [27/Jul/2021 01:14:00] "POST /agent/reglster HTTP/1.1 404 0" 0.008018  PostmanRuntime/7.28.2
+2021/07/27 01:15:25.211 [server.go:2843]  ::1 - - [27/Jul/2021 01:15:25] "POST /agent/register HTTP/1.1 200 0" 0.026006  PostmanRuntime/7.28.2
+2021/07/27 01:15:39.057 [server.go:2843]  ::1 - - [27/Jul/2021 01:15:39] "GET /agent/query HTTP/1.1 200 0" 0.024004 http://localhost:8888/alert/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:15:39.130 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:15:41.200 [server.go:2843]  ::1 - - [27/Jul/2021 01:15:41] "GET /agent/delete?id=1 HTTP/1.1 405 0" 0.004001 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:15:41.274 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:15:43.309 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:15:44.373 [server.go:2843]  ::1 - - [27/Jul/2021 01:15:44] "GET /agent/delete?id=1 HTTP/1.1 405 0" 0.004007 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:15:44.435 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:15:45.712 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:15:46.392 [server.go:2843]  ::1 - - [27/Jul/2021 01:15:46] "GET /agent/modify?pk=1 HTTP/1.1 200 0" 0.020004 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:15:46.823 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:15:49.679 [server.go:2843]  ::1 - - [27/Jul/2021 01:15:49] "POST /agent/modify HTTP/1.1 200 0" 0.025007 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:15:49.928 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:15:59.123 [agent.go:31]  ::1 - - [01/Jan/0001 12:00:00] "POST /agent/modify HTTP/1.1 302 0" 0.000000 http://localhost:8888/agent/modify Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:15:59.123 [server.go:2843]  ::1 - - [27/Jul/2021 01:15:59] "POST /agent/modify HTTP/1.1 302 0" 0.118351 http://localhost:8888/agent/modify Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:15:59.147 [server.go:2843]  ::1 - - [27/Jul/2021 01:15:59] "GET /agent/query HTTP/1.1 200 0" 0.016005 http://localhost:8888/agent/modify Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:15:59.208 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:16:39.925 [server.go:2843]  ::1 - - [27/Jul/2021 01:16:39] "POST /agent/register HTTP/1.1 200 0" 0.010003  PostmanRuntime/7.28.2
+2021/07/27 01:16:44.156 [server.go:2843]  ::1 - - [27/Jul/2021 01:16:44] "GET /agent/query HTTP/1.1 200 0" 0.018002 http://localhost:8888/agent/modify Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:16:44.227 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:16:46.318 [server.go:2843]  ::1 - - [27/Jul/2021 01:16:46] "GET /agent/delete?id=1 HTTP/1.1 405 0" 0.004001 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:16:46.378 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:16:48.234 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:16:50.681 [server.go:2843]  ::1 - - [27/Jul/2021 01:16:50] "GET /agent/modify?pk=1 HTTP/1.1 200 0" 0.017986 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:16:50.822 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:16:54.180 [agent.go:31]  ::1 - - [01/Jan/0001 12:00:00] "POST /agent/modify HTTP/1.1 302 0" 0.000000 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:16:54.180 [server.go:2843]  ::1 - - [27/Jul/2021 01:16:54] "POST /agent/modify HTTP/1.1 302 0" 0.015004 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:16:54.206 [server.go:2843]  ::1 - - [27/Jul/2021 01:16:54] "GET /agent/query HTTP/1.1 200 0" 0.018004 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:16:54.277 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:22:01.817 [server.go:2843]  ::1 - - [27/Jul/2021 01:22:01] "GET /agent/query HTTP/1.1 200 0" 0.026000 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:22:01.878 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:24:57.433 [server.go:2843]  ::1 - - [27/Jul/2021 01:24:57] "POST /agent/register HTTP/1.1 200 0" 0.014003  Go-http-client/1.1
+2021/07/27 01:30:12.533 [server.go:2843]  ::1 - - [27/Jul/2021 01:30:12] "GET /agent/query HTTP/1.1 200 0" 0.025004 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:30:12.610 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:30:19.180 [server.go:2843]  ::1 - - [27/Jul/2021 01:30:19] "GET /agent/query HTTP/1.1 200 0" 0.018001 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:30:19.241 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:30:27.894 [server.go:2843]  ::1 - - [27/Jul/2021 01:30:27] "GET /agent/query HTTP/1.1 200 0" 0.021007 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:30:27.952 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:30:56.285 [server.go:2843]  ::1 - - [27/Jul/2021 01:30:56] "GET /alert/query HTTP/1.1 200 0" 0.029007 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:30:56.353 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:30:57.129 [server.go:2843]  ::1 - - [27/Jul/2021 01:30:57] "GET /agent/query HTTP/1.1 200 0" 0.019002 http://localhost:8888/alert/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:30:57.192 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:30:59.759 [server.go:2843]  ::1 - - [27/Jul/2021 01:30:59] "GET /agent/modify?pk=1 HTTP/1.1 200 0" 0.020005 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:30:59.897 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:31:04.197 [agent.go:31]  ::1 - - [01/Jan/0001 12:00:00] "POST /agent/modify HTTP/1.1 302 0" 0.000000 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:31:04.197 [server.go:2843]  ::1 - - [27/Jul/2021 01:31:04] "POST /agent/modify HTTP/1.1 302 0" 0.019004 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:31:04.230 [server.go:2843]  ::1 - - [27/Jul/2021 01:31:04] "GET /agent/query HTTP/1.1 200 0" 0.023004 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:31:04.306 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:31:22.831 [server.go:2843]  ::1 - - [27/Jul/2021 01:31:22] "POST /agent/register HTTP/1.1 200 0" 0.013002  PostmanRuntime/7.28.2
+2021/07/27 01:31:25.119 [server.go:2843]  ::1 - - [27/Jul/2021 01:31:25] "GET /agent/query HTTP/1.1 200 0" 0.028006 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:31:25.184 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:32:03.400 [server.go:2843]  ::1 - - [27/Jul/2021 01:32:03] "POST /agent/register HTTP/1.1 200 0" 0.019005  Go-http-client/1.1
+2021/07/27 01:32:05.629 [server.go:2843]  ::1 - - [27/Jul/2021 01:32:05] "GET /agent/query HTTP/1.1 200 0" 0.021005 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:32:05.693 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:32:07.186 [server.go:2843]  ::1 - - [27/Jul/2021 01:32:07] "GET /agent/query HTTP/1.1 200 0" 0.018003 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:32:07.242 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:32:07.634 [server.go:2843]  ::1 - - [27/Jul/2021 01:32:07] "GET /agent/query HTTP/1.1 200 0" 0.016000 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:32:07.689 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:32:07.835 [server.go:2843]  ::1 - - [27/Jul/2021 01:32:07] "GET /agent/query HTTP/1.1 200 0" 0.016018 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:32:07.889 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:32:08.012 [server.go:2843]  ::1 - - [27/Jul/2021 01:32:07] "GET /agent/query HTTP/1.1 200 0" 0.016970 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:32:08.068 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:32:08.193 [server.go:2843]  ::1 - - [27/Jul/2021 01:32:08] "GET /agent/query HTTP/1.1 200 0" 0.021005 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:32:08.254 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:32:08.393 [server.go:2843]  ::1 - - [27/Jul/2021 01:32:08] "GET /agent/query HTTP/1.1 200 0" 0.016999 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:32:08.448 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:32:08.939 [server.go:2843]  ::1 - - [27/Jul/2021 01:32:08] "GET /agent/query HTTP/1.1 200 0" 0.016003 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:32:08.997 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:32:09.330 [server.go:2843]  ::1 - - [27/Jul/2021 01:32:09] "GET /agent/query HTTP/1.1 200 0" 0.020004 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:32:09.388 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:32:09.755 [server.go:2843]  ::1 - - [27/Jul/2021 01:32:09] "GET /agent/query HTTP/1.1 200 0" 0.017002 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:32:09.810 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:32:13.353 [server.go:2843]  ::1 - - [27/Jul/2021 01:32:13] "GET /agent/query HTTP/1.1 200 0" 0.018002 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:32:13.413 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:32:15.216 [server.go:2843]  ::1 - - [27/Jul/2021 01:32:15] "GET /agent/delete?id=1 HTTP/1.1 405 0" 0.005006 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:32:15.268 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:32:16.445 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:32:17.837 [server.go:2843]  ::1 - - [27/Jul/2021 01:32:17] "GET /agent/delete?id=3 HTTP/1.1 405 0" 0.005008 http://localhost:8888/agent/query Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:32:17.886 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:32:19.768 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:32:27.458 [server.go:2843]  ::1 - - [27/Jul/2021 01:32:27] "POST /agent/register HTTP/1.1 200 0" 0.010003  Go-http-client/1.1
+2021/07/27 01:32:37.502 [server.go:2843]  ::1 - - [27/Jul/2021 01:32:37] "POST /agent/register HTTP/1.1 200 0" 0.011004  Go-http-client/1.1
+2021/07/27 01:32:46.894 [server.go:2843]  ::1 - - [27/Jul/2021 01:32:46] "GET /agent/query HTTP/1.1 200 0" 0.025005 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:32:46.961 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:33:01.670 [server.go:2843]  ::1 - - [27/Jul/2021 01:33:01] "POST /agent/register HTTP/1.1 200 0" 0.012004  Go-http-client/1.1
+2021/07/27 01:33:02.021 [server.go:2843]  ::1 - - [27/Jul/2021 01:33:02] "GET /agent/query HTTP/1.1 200 0" 0.020000 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:33:02.079 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:39:25.217 [server.go:2843]  ::1 - - [27/Jul/2021 01:39:25] "POST /agent/register HTTP/1.1 200 0" 0.024006  Go-http-client/1.1
+2021/07/27 01:42:30.612 [server.go:2843]  ::1 - - [27/Jul/2021 01:42:30] "POST /agent/register HTTP/1.1 200 0" 0.040010  Go-http-client/1.1
+2021/07/27 01:44:39.705 [server.go:2843]  ::1 - - [27/Jul/2021 01:44:39] "POST /agent/register HTTP/1.1 200 0" 0.008004  Go-http-client/1.1
+2021/07/27 01:45:06.680 [server.go:2843]  ::1 - - [27/Jul/2021 01:45:06] "POST /agent/register HTTP/1.1 200 0" 0.021005  Go-http-client/1.1
+2021/07/27 01:46:04.387 [server.go:2843]  ::1 - - [27/Jul/2021 01:46:04] "POST /agent/register HTTP/1.1 200 0" 0.019003  Go-http-client/1.1
+2021/07/27 01:47:39.172 [server.go:2843]  ::1 - - [27/Jul/2021 01:47:39] "POST /agent/register HTTP/1.1 200 0" 0.008004  Go-http-client/1.1
+2021/07/27 01:47:53.147 [server.go:2843]  ::1 - - [27/Jul/2021 01:47:53] "POST /agent/register HTTP/1.1 200 0" 0.020007  Go-http-client/1.1
+2021/07/27 01:48:09.356 [server.go:2843]  ::1 - - [27/Jul/2021 01:48:09] "GET /agent/query HTTP/1.1 200 0" 0.025010 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:48:09.429 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:49:02.031 [server.go:2843]  ::1 - - [27/Jul/2021 01:49:02] "POST /agent/register HTTP/1.1 200 0" 0.016003  Go-http-client/1.1
+2021/07/27 01:51:31.541 [server.go:2843]  ::1 - - [27/Jul/2021 01:51:31] "POST /agent/register HTTP/1.1 200 0" 0.045010  Go-http-client/1.1
+2021/07/27 01:52:16.243 [server.go:2843]  ::1 - - [27/Jul/2021 01:52:16] "POST /agent/register HTTP/1.1 200 0" 0.016003  Go-http-client/1.1
+2021/07/27 01:52:32.027 [server.go:2843]  ::1 - - [27/Jul/2021 01:52:32] "POST /agent/register HTTP/1.1 200 0" 0.019006  Go-http-client/1.1
+2021/07/27 01:53:24.454 [server.go:2843]  ::1 - - [27/Jul/2021 01:53:24] "POST /agent/register HTTP/1.1 200 0" 0.017004  Go-http-client/1.1
+2021/07/27 01:54:15.736 [server.go:2843]  ::1 - - [27/Jul/2021 01:54:15] "POST /agent/register HTTP/1.1 200 0" 0.025003  Go-http-client/1.1
+2021/07/27 01:54:28.768 [server.go:2843]  ::1 - - [27/Jul/2021 01:54:28] "POST /agent/register HTTP/1.1 200 0" 0.012002  Go-http-client/1.1
+2021/07/27 01:54:41.587 [server.go:2843]  ::1 - - [27/Jul/2021 01:54:41] "POST /agent/register HTTP/1.1 200 0" 0.012006  Go-http-client/1.1
+2021/07/27 01:55:03.822 [server.go:2843]  ::1 - - [27/Jul/2021 01:55:03] "GET /agent/query HTTP/1.1 200 0" 0.036009 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:55:03.891 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:55:28.493 [server.go:2843]  ::1 - - [27/Jul/2021 01:55:28] "POST /agent/register HTTP/1.1 200 0" 0.011003  Go-http-client/1.1
+2021/07/27 01:55:30.414 [server.go:2843]  ::1 - - [27/Jul/2021 01:55:30] "GET /agent/query HTTP/1.1 200 0" 0.042007 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:55:30.596 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 01:55:36.624 [server.go:2843]  ::1 - - [27/Jul/2021 01:55:36] "GET /agent/query HTTP/1.1 200 0" 0.034008 http://localhost:8888/agent/modify?pk=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55
+2021/07/27 01:55:36.700 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/27 02:11:24.603 [server.go:2843]  172.16.10.112 - - [27/Jul/2021 02:11:24] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.018003  Alertmanager/0.21.0
+2021/07/27 03:11:26.897 [server.go:2843]  172.16.10.112 - - [27/Jul/2021 03:11:26] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.014992  Alertmanager/0.21.0
+2021/07/27 04:11:29.364 [server.go:2843]  172.16.10.112 - - [27/Jul/2021 04:11:29] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.012003  Alertmanager/0.21.0
+2021/07/27 05:11:31.743 [server.go:2843]  172.16.10.112 - - [27/Jul/2021 05:11:31] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.015004  Alertmanager/0.21.0
+2021/07/27 06:11:34.047 [server.go:2843]  172.16.10.112 - - [27/Jul/2021 06:11:34] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.009999  Alertmanager/0.21.0
+2021/07/27 07:11:36.292 [server.go:2843]  172.16.10.112 - - [27/Jul/2021 07:11:36] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.010002  Alertmanager/0.21.0
+2021/07/27 08:11:38.625 [server.go:2843]  172.16.10.112 - - [27/Jul/2021 08:11:38] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.009999  Alertmanager/0.21.0
+2021/07/27 09:11:41.025 [server.go:2843]  172.16.10.112 - - [27/Jul/2021 09:11:41] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.009993  Alertmanager/0.21.0
+2021/07/27 10:11:43.576 [server.go:2843]  172.16.10.112 - - [27/Jul/2021 10:11:43] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.009990  Alertmanager/0.21.0
+2021/07/27 11:11:45.985 [server.go:2843]  172.16.10.112 - - [27/Jul/2021 11:11:45] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.008990  Alertmanager/0.21.0
+2021/07/27 12:11:48.365 [server.go:2843]  172.16.10.112 - - [27/Jul/2021 12:11:48] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.009999  Alertmanager/0.21.0
+2021/07/27 13:11:50.745 [server.go:2843]  172.16.10.112 - - [27/Jul/2021 01:11:50] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.010003  Alertmanager/0.21.0
+2021/07/27 14:11:53.181 [server.go:2843]  172.16.10.112 - - [27/Jul/2021 02:11:53] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.016994  Alertmanager/0.21.0
+2021/07/27 15:11:55.629 [server.go:2843]  172.16.10.112 - - [27/Jul/2021 03:11:55] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.010006  Alertmanager/0.21.0
+2021/07/27 16:11:58.071 [server.go:2843]  172.16.10.112 - - [27/Jul/2021 04:11:58] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.011004  Alertmanager/0.21.0
+2021/07/27 17:12:00.327 [server.go:2843]  172.16.10.112 - - [27/Jul/2021 05:12:00] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.011999  Alertmanager/0.21.0
+2021/07/27 18:12:02.789 [server.go:2843]  172.16.10.112 - - [27/Jul/2021 06:12:02] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.010005  Alertmanager/0.21.0
+2021/07/27 19:12:05.157 [server.go:2843]  172.16.10.112 - - [27/Jul/2021 07:12:05] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.011993  Alertmanager/0.21.0
+2021/07/27 20:12:07.648 [server.go:2843]  172.16.10.112 - - [27/Jul/2021 08:12:07] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.013001  Alertmanager/0.21.0
+2021/07/27 21:12:09.995 [server.go:2843]  172.16.10.112 - - [27/Jul/2021 09:12:09] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.011003  Alertmanager/0.21.0
+2021/07/27 23:01:54.002 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/27 23:01:54.004 [I] [asm_amd64.s:1374]  https server Running on https://:8443
+2021/07/27 23:01:54.032 [server.go:2843]  172.16.10.112 - - [27/Jul/2021 11:01:54] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.013004  Alertmanager/0.21.0
+2021/07/27 23:02:10.488 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/27 23:02:10.490 [I] [asm_amd64.s:1374]  https server Running on https://:8443
+2021/07/27 23:09:00.838 [server.go:2843]  ::1 - - [27/Jul/2021 11:09:00] "POST /agent/register HTTP/1.1 200 0" 0.029010  Go-http-client/1.1

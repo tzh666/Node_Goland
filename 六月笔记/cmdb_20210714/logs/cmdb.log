@@ -1,0 +1,252 @@
+2021/06/20 01:46:17.417 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 01:46:31.512 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 01:47:11.632 [E] [auth.go:62]  用户名或者密码错误: kk 
+2021/06/20 01:47:11.637 [D] [server.go:2774]  |            ::1|[42m 200 [0m|   159.0519ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2021/06/20 01:47:55.630 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 01:48:49.436 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 01:48:52.951 [E] [auth.go:62]  用户名或者密码错误: kk 
+2021/06/20 01:48:52.956 [D] [server.go:2774]  |            ::1|[42m 200 [0m|   159.0377ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2021/06/20 01:49:09.379 [I] [auth.go:53]  用户认证成功: kk3 
+2021/06/20 01:49:09.379 [D] [server.go:2774]  |            ::1|[47m 302 [0m|   153.0327ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2021/06/20 01:49:09.402 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    18.0172ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:06:15.008 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 02:06:25.010 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    21.0042ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:06:27.159 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    18.0038ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:06:27.936 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    10.0012ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/06/20 02:06:29.033 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    15.0038ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:06:29.449 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    14.0062ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:06:29.621 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    14.9836ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:06:29.808 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    13.9861ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:06:30.171 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     9.0186ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/06/20 02:06:30.681 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    15.0035ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:06:31.568 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    11.0019ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/06/20 02:06:32.025 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    15.0247ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:06:33.399 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     9.0201ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/06/20 02:06:33.865 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    15.0067ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:06:42.174 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    15.0066ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:07:09.313 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     10.003ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/06/20 02:07:09.651 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    15.9995ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:09:15.836 [D] [server.go:2774]  |            ::1|[47m 302 [0m|     2.0016ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:09:15.848 [D] [server.go:2774]  |            ::1|[47m 302 [0m|      999.6µs|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/06/20 02:09:15.878 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    25.0055ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:09:16.507 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     9.0019ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/06/20 02:09:16.841 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    12.9985ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:09:17.579 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     9.9969ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/06/20 02:09:17.858 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    13.4745ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:11:16.384 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 02:11:30.411 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    20.0034ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:11:31.031 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     7.0002ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/06/20 02:11:31.455 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    15.0043ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:11:31.835 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    10.0045ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/06/20 02:11:32.061 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    12.0045ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:11:32.290 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     9.0028ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/06/20 02:11:32.472 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    14.0038ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:11:32.657 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     8.0037ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/06/20 02:11:32.827 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    11.9981ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:11:33.455 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     13.003ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:11:33.820 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     8.0009ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/06/20 02:11:34.129 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     12.003ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:11:35.330 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     14.005ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:11:36.455 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    14.0049ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:11:54.143 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 02:12:14.378 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 02:12:14.692 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|    18.0053ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:12:21.089 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|    14.0035ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:12:21.575 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|     9.0039ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/06/20 02:12:22.267 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|    12.0051ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:13:34.930 [D] [server.go:2774]  |      127.0.0.1|[47m 302 [0m|     4.0018ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:13:34.937 [D] [server.go:2774]  |      127.0.0.1|[47m 302 [0m|     1.0011ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/06/20 02:13:34.962 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|    20.0051ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:13:48.612 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|    13.0164ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:13:49.468 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      9.018ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/06/20 02:13:51.208 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|    13.9845ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:15:13.778 [D] [server.go:2774]  |      127.0.0.1|[47m 302 [0m|     4.0039ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2021/06/20 02:15:13.786 [D] [server.go:2774]  |      127.0.0.1|[47m 302 [0m|      999.1µs|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/06/20 02:15:13.818 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|    25.0066ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:15:15.201 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|    12.0211ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2021/06/20 02:15:19.497 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|    11.0031ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2021/06/20 02:16:04.340 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|    12.0023ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2021/06/20 02:16:20.321 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 02:16:20.418 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    18.0066ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2021/06/20 02:16:23.433 [D] [server.go:2774]  |            ::1|[47m 302 [0m|     8.9942ms|   match|[46m POST    [0m /user/modify   r:/user/modify/*
+2021/06/20 02:16:23.458 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     17.197ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:17:24.265 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 02:17:31.208 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    13.9976ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2021/06/20 02:17:33.953 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    11.0036ms|   match|[44m GET     [0m /password/modify   r:/password/modify/*
+2021/06/20 02:17:37.586 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    11.0032ms|   match|[44m GET     [0m /password/modify   r:/password/modify/*
+2021/06/20 02:17:41.186 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     9.0028ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/06/20 02:17:42.456 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    15.0034ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:28:32.252 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 02:30:33.337 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 02:31:26.962 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 02:31:27.107 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|    14.0019ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/06/20 02:31:29.054 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|    18.0036ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:31:30.470 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|    16.0054ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2021/06/20 02:31:31.385 [D] [server.go:2774]  |      127.0.0.1|[47m 302 [0m|     9.0016ms|   match|[46m POST    [0m /user/modify   r:/user/modify/*
+2021/06/20 02:31:31.405 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|    13.9983ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 02:31:32.452 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|    10.0036ms|   match|[44m GET     [0m /password/modify   r:/password/modify/*
+2021/06/20 02:31:33.596 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|   165.0828ms|   match|[46m POST    [0m /password/modify   r:/password/modify/*
+2021/06/20 15:42:29.604 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 15:43:43.444 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 15:44:15.282 [D] [server.go:2774]  |            ::1|[47m 302 [0m|    11.0054ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2021/06/20 15:44:15.299 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    12.0031ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/06/20 15:44:22.722 [I] [auth.go:53]  用户认证成功: kk3 
+2021/06/20 15:44:22.723 [D] [server.go:2774]  |            ::1|[47m 302 [0m|   158.0528ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2021/06/20 15:44:22.747 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    18.9893ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 15:44:24.461 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    11.9776ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2021/06/20 15:44:30.842 [D] [server.go:2774]  |            ::1|[47m 302 [0m|     12.001ms|   match|[46m POST    [0m /user/modify   r:/user/modify/*
+2021/06/20 15:44:30.862 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    15.0025ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 15:44:32.453 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    10.9997ms|   match|[44m GET     [0m /password/modify   r:/password/modify/*
+2021/06/20 16:42:52.257 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    15.0029ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/06/20 16:42:53.131 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    14.0021ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 16:42:55.925 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    12.0039ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 16:42:57.768 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    12.0052ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2021/06/20 16:44:41.499 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 16:45:31.219 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 16:45:31.266 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|     22.005ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 16:45:46.331 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|    13.0023ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/06/20 16:45:47.207 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|    12.9975ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 16:45:52.700 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|     10.002ms|   match|[44m GET     [0m /password/modify   r:/password/modify/*
+2021/06/20 16:45:54.554 [D] [server.go:2774]  |      127.0.0.1|[47m 302 [0m|     1.9976ms|   match|[44m GET     [0m /auth/logout   r:/auth/logout/*
+2021/06/20 16:45:54.571 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|    13.0018ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/06/20 16:46:05.841 [I] [auth.go:53]  用户认证成功: kk3 
+2021/06/20 16:46:05.841 [D] [server.go:2774]  |      127.0.0.1|[47m 302 [0m|   162.3302ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2021/06/20 16:46:05.862 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|    16.0215ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 16:49:14.209 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 20:13:33.657 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 20:14:20.904 [D] [server.go:2774]  |            ::1|[47m 302 [0m|    11.0013ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 20:14:20.917 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     5.9965ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/06/20 20:14:21.020 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    26.0072ms|   match|[44m GET     [0m /static/css/login.css
+2021/06/20 20:14:26.144 [I] [auth.go:53]  用户认证成功: kk3 
+2021/06/20 20:14:26.144 [D] [server.go:2774]  |            ::1|[47m 302 [0m|   161.0111ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2021/06/20 20:14:26.166 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    17.0074ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 20:14:26.233 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    15.0035ms|   match|[44m GET     [0m /static/css/layout.css
+2021/06/20 20:34:07.090 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 20:34:53.220 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    14.0037ms|   match|[44m GET     [0m /password/modify   r:/password/modify/*
+2021/06/20 20:34:55.660 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    14.0015ms|   match|[44m GET     [0m /password/modify   r:/password/modify/*
+2021/06/20 20:34:56.656 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     9.9992ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/06/20 20:34:57.014 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    13.0052ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 21:43:22.757 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 21:44:29.075 [D] [server.go:2774]  |            ::1|[47m 302 [0m|     9.0054ms|   match|[44m GET     [0m /auth/logout   r:/auth/logout/*
+2021/06/20 21:44:29.084 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     4.9979ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/06/20 21:44:30.216 [C] [panic.go:522]  the request url is  /auth/login
+2021/06/20 21:44:30.217 [C] [panic.go:522]  Handler crashed with error invalid connection
+2021/06/20 21:44:30.217 [C] [panic.go:522]  C:/Go/src/runtime/panic.go:522
+2021/06/20 21:44:30.217 [C] [panic.go:522]  C:/Users/Lenovo/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/db_alias.go:206
+2021/06/20 21:44:30.217 [C] [panic.go:522]  C:/Users/Lenovo/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm_log.go:173
+2021/06/20 21:44:30.217 [C] [panic.go:522]  C:/Users/Lenovo/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/db.go:361
+2021/06/20 21:44:30.217 [C] [panic.go:522]  C:/Users/Lenovo/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm.go:129
+2021/06/20 21:44:30.217 [C] [panic.go:522]  D:/Golang_student/Golang代码/beego/day08-cmdb/src/cmdb/services/user.go:73
+2021/06/20 21:44:30.217 [C] [panic.go:522]  D:/Golang_student/Golang代码/beego/day08-cmdb/src/cmdb/controllers/auth.go:49
+2021/06/20 21:44:30.217 [C] [panic.go:522]  C:/Go/src/reflect/value.go:447
+2021/06/20 21:44:30.217 [C] [panic.go:522]  C:/Go/src/reflect/value.go:308
+2021/06/20 21:44:30.217 [C] [panic.go:522]  C:/Users/Lenovo/go/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:897
+2021/06/20 21:44:30.217 [C] [panic.go:522]  C:/Go/src/net/http/server.go:2774
+2021/06/20 21:44:30.217 [C] [panic.go:522]  C:/Go/src/net/http/server.go:1878
+2021/06/20 21:44:30.217 [C] [panic.go:522]  C:/Go/src/runtime/asm_386.s:1321
+2021/06/20 21:44:30.218 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/06/20 21:44:57.847 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 21:45:00.450 [D] [server.go:2774]  |            ::1|[47m 302 [0m|     2.0009ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/06/20 21:45:00.463 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     5.0009ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/06/20 21:45:00.546 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    17.0026ms|   match|[44m GET     [0m /static/components/bootstrap-4.5.3/css/bootstrap.min.css
+2021/06/20 21:45:33.383 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 21:45:36.269 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     8.0009ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/06/20 21:45:41.953 [I] [auth.go:57]  用户认证成功: kk3 
+2021/06/20 21:45:41.954 [D] [server.go:2774]  |            ::1|[47m 302 [0m|   166.0387ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2021/06/20 21:45:41.979 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    19.9872ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 21:46:09.125 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    14.0031ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 21:46:09.179 [D] [server.go:2774]  |            ::1|[47m 304 [0m|      1.001ms|   match|[44m GET     [0m /static/css/layout.css
+2021/06/20 21:46:52.204 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    15.0048ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 21:46:52.900 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    10.0011ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/06/20 21:46:54.207 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    14.0078ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 21:46:56.225 [D] [server.go:2774]  |            ::1|[47m 302 [0m|     1.0004ms|   match|[44m GET     [0m /auth/logout   r:/auth/logout/*
+2021/06/20 21:46:56.241 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    11.0015ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/06/20 21:46:59.365 [E] [auth.go:66]  用户名或者密码错误: kk 
+2021/06/20 21:46:59.369 [D] [server.go:2774]  |            ::1|[42m 200 [0m|   172.0389ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2021/06/20 21:47:01.340 [E] [auth.go:66]  用户名或者密码错误: kk 
+2021/06/20 21:47:01.344 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    170.558ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2021/06/20 21:47:03.053 [E] [auth.go:66]  用户名或者密码错误: kk 
+2021/06/20 21:47:03.057 [D] [server.go:2774]  |            ::1|[42m 200 [0m|   173.0555ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2021/06/20 21:47:08.621 [I] [auth.go:57]  用户认证成功: kk3 
+2021/06/20 21:47:08.622 [D] [server.go:2774]  |            ::1|[47m 302 [0m|   173.9208ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2021/06/20 21:47:08.639 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     12.003ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 23:49:16.767 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/20 23:49:27.707 [D] [server.go:2774]  |            ::1|[47m 302 [0m|     9.0012ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/20 23:49:27.726 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    12.0033ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/06/20 23:49:33.811 [I] [auth.go:57]  用户认证成功: kk3 
+2021/06/20 23:49:33.812 [D] [server.go:2774]  |            ::1|[47m 302 [0m|   179.2155ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2021/06/20 23:49:33.842 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     25.196ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/21 22:45:15.568 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/21 22:45:31.743 [D] [server.go:2774]  |            ::1|[47m 302 [0m|    12.0038ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/21 22:45:31.767 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    15.0025ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/06/21 22:45:34.880 [D] [server.go:2774]  |            ::1|[43m 404 [0m|     4.0002ms| nomatch|[44m GET     [0m /favicon.ico
+2021/06/21 22:45:39.554 [I] [auth.go:57]  用户认证成功: admin 
+2021/06/21 22:45:39.555 [D] [server.go:2774]  |            ::1|[47m 302 [0m|   177.0581ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2021/06/21 22:45:39.582 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    22.0033ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/06/21 22:45:39.658 [D] [server.go:2774]  |            ::1|[47m 304 [0m|    12.0004ms|   match|[44m GET     [0m /static/css/layout.css
+2021/06/21 23:33:43.478 [I] [asm_386.s:1321]  http server Running on http://:8080
+2021/06/21 23:34:12.673 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    43.0101ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2021/07/04 21:11:57.051 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/04 21:12:47.330 [D] [server.go:2887]  |            ::1|[47m 302 [0m|     3.2064ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/04 21:12:47.352 [D] [server.go:2887]  |            ::1|[42m 200 [0m|    15.7976ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/07/04 21:12:47.442 [D] [server.go:2887]  |            ::1|[42m 200 [0m|        337µs|   match|[44m GET     [0m /static/css/login.css
+2021/07/04 21:12:47.444 [D] [server.go:2887]  |            ::1|[42m 200 [0m|     2.6547ms|   match|[44m GET     [0m /static/components/bootstrap-4.5.3/css/bootstrap.min.css
+2021/07/04 21:12:47.691 [D] [server.go:2887]  |            ::1|[43m 404 [0m|     4.1146ms| nomatch|[44m GET     [0m /favicon.ico
+2021/07/04 21:13:02.129 [D] [server.go:2887]  |            ::1|[42m 200 [0m|      8.195ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/07/04 21:13:02.230 [D] [server.go:2887]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/login.css
+2021/07/04 21:13:02.231 [D] [server.go:2887]  |            ::1|[42m 200 [0m|     4.5458ms|   match|[44m GET     [0m /static/components/bootstrap-4.5.3/css/bootstrap.min.css
+2021/07/04 21:13:02.422 [D] [server.go:2887]  |            ::1|[43m 404 [0m|      5.859ms| nomatch|[44m GET     [0m /favicon.ico
+2021/07/04 21:13:07.793 [C] [panic.go:965]  the request url is  /auth/login
+2021/07/04 21:13:07.794 [C] [panic.go:965]  Handler crashed with error invalid connection
+2021/07/04 21:13:07.794 [C] [panic.go:965]  D:/Files/Go/src/runtime/panic.go:965
+2021/07/04 21:13:07.794 [C] [panic.go:965]  C:/Users/Lenovo/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/db_alias.go:206
+2021/07/04 21:13:07.794 [C] [panic.go:965]  C:/Users/Lenovo/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/db.go:361
+2021/07/04 21:13:07.794 [C] [panic.go:965]  C:/Users/Lenovo/go/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm.go:129
+2021/07/04 21:13:07.794 [C] [panic.go:965]  D:/Golang_student/Golang笔记/六月笔记/day08-cmdb/src/cmdb/services/user.go:73
+2021/07/04 21:13:07.794 [C] [panic.go:965]  D:/Golang_student/Golang笔记/六月笔记/day08-cmdb/src/cmdb/controllers/auth.go:49
+2021/07/04 21:13:07.794 [C] [panic.go:965]  D:/Files/Go/src/reflect/value.go:476
+2021/07/04 21:13:07.794 [C] [panic.go:965]  D:/Files/Go/src/reflect/value.go:337
+2021/07/04 21:13:07.794 [C] [panic.go:965]  C:/Users/Lenovo/go/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:897
+2021/07/04 21:13:07.794 [C] [panic.go:965]  D:/Files/Go/src/net/http/server.go:2887
+2021/07/04 21:13:07.795 [C] [panic.go:965]  D:/Files/Go/src/net/http/server.go:1952
+2021/07/04 21:13:07.795 [C] [panic.go:965]  D:/Files/Go/src/runtime/asm_amd64.s:1371
+2021/07/04 21:13:07.795 [server.go:3137]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/04 21:13:09.886 [D] [server.go:2887]  |            ::1|[42m 200 [0m|     4.9038ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/07/04 21:13:20.430 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/04 21:20:51.127 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/04 21:21:12.014 [D] [server.go:2887]  |            ::1|[47m 302 [0m|     2.4471ms|   match|[44m GET     [0m /password/modify   r:/password/modify/*
+2021/07/04 21:21:12.029 [D] [server.go:2887]  |            ::1|[42m 200 [0m|     6.2585ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/07/04 21:21:12.263 [D] [server.go:2887]  |            ::1|[43m 404 [0m|     4.0023ms| nomatch|[44m GET     [0m /favicon.ico
+2021/07/04 21:21:20.076 [I] [auth.go:57]  用户认证成功: kk3 
+2021/07/04 21:21:20.076 [D] [server.go:2887]  |            ::1|[47m 302 [0m|   181.5646ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2021/07/04 21:21:20.102 [D] [server.go:2887]  |            ::1|[42m 200 [0m|    18.5519ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/04 21:21:20.137 [D] [server.go:2887]  |            ::1|[42m 200 [0m|     1.0998ms|   match|[44m GET     [0m /static/css/layout.css
+2021/07/04 21:21:25.997 [D] [server.go:2887]  |            ::1|[42m 200 [0m|    13.9615ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2021/07/04 21:21:47.058 [D] [server.go:2887]  |            ::1|[42m 200 [0m|    10.8707ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/07/04 21:21:48.098 [D] [server.go:2887]  |            ::1|[42m 200 [0m|     9.4061ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/07/04 21:21:48.753 [D] [server.go:2887]  |            ::1|[42m 200 [0m|    14.9775ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/04 21:21:52.270 [D] [server.go:2887]  |            ::1|[47m 302 [0m|    10.6126ms|   match|[44m GET     [0m /user/delete   r:/user/delete/*
+2021/07/04 21:21:52.287 [D] [server.go:2887]  |            ::1|[42m 200 [0m|    11.3651ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/14 01:06:40.957 [I] [asm_amd64.s:1374]  http server Running on http://:8080
+2021/07/14 01:06:41.076 [D] [server.go:2843]  |      127.0.0.1|[47m 302 [0m|    10.0027ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/14 01:06:41.157 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|     7.0002ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/07/14 01:06:41.259 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|    10.0006ms|   match|[44m GET     [0m /static/css/login.css
+2021/07/14 01:06:41.265 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|    16.0026ms|   match|[44m GET     [0m /static/components/bootstrap-4.5.3/css/bootstrap.min.css
+2021/07/14 01:06:41.503 [D] [server.go:2843]  |      127.0.0.1|[43m 404 [0m|     5.0029ms| nomatch|[44m GET     [0m /favicon.ico
+2021/07/14 01:06:52.461 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     8.0018ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/07/14 01:06:52.493 [D] [server.go:2843]  |            ::1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/css/login.css
+2021/07/14 01:06:53.012 [D] [server.go:2843]  |            ::1|[43m 404 [0m|     3.9985ms| nomatch|[44m GET     [0m /favicon.ico
+2021/07/14 01:06:58.891 [I] [auth.go:57]  用户认证成功: kk3 
+2021/07/14 01:06:58.892 [D] [server.go:2843]  |            ::1|[47m 302 [0m|   634.1054ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2021/07/14 01:06:58.928 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     24.008ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/14 01:06:58.977 [D] [server.go:2843]  |            ::1|[47m 304 [0m|    12.0023ms|   match|[44m GET     [0m /static/css/layout.css
+2021/07/14 01:07:03.390 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    13.9937ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/14 01:07:03.929 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    15.0207ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/07/14 01:07:04.490 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    13.0196ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/14 01:07:06.028 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     9.0181ms|   match|[44m GET     [0m /password/modify   r:/password/modify/*
+2021/07/14 01:07:08.654 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    10.0196ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2021/07/14 01:07:09.038 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    13.9831ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/14 01:07:15.074 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    13.0013ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/14 01:07:17.657 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    12.0007ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/14 01:08:29.315 [D] [server.go:2843]  |            ::1|[43m 404 [0m|     6.0007ms| nomatch|[44m GET     [0m /user/hdfhd
+2021/07/17 23:08:50.389 [I] [asm_amd64.s:1374]  http server Running on http://:8080

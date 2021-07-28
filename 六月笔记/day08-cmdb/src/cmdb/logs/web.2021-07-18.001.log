@@ -1,0 +1,70 @@
+2021/07/17 00:02:37.070 [server.go:3093]  [HTTP] http: TLS handshake error from [::1]:59627: remote error: tls: unknown certificate
+2021/07/17 00:02:37.090 [server.go:2843]  ::1 - - [17/Jul/2021 12:02:37] "GET /user/query HTTP/2.0 200 0" 0.015001 https://localhost:10443/auth/login Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021/07/17 00:02:39.024 [server.go:2843]  172.16.2.160 - - [17/Jul/2021 12:02:39] "GET /prometheus/alert/ HTTP/1.1 200 0" 0.002000  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021/07/17 00:02:39.094 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/17 00:09:15.803 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/17 00:09:15.804 [I] [asm_amd64.s:1374]  https server Running on https://:10443
+2021/07/17 00:09:48.089 [server.go:2843]  172.16.2.160 - - [17/Jul/2021 12:09:48] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.008989  Alertmanager/0.21.0
+2021/07/17 00:12:42.104 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/17 00:12:42.106 [I] [asm_amd64.s:1374]  https server Running on https://:10443
+2021/07/17 00:12:42.299 [server.go:2843]  172.16.2.160 - - [17/Jul/2021 12:12:42] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.010003  Alertmanager/0.21.0
+2021/07/17 00:14:58.210 [server.go:2843]  172.16.2.160 - - [17/Jul/2021 12:14:58] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.003000  Alertmanager/0.21.0
+2021/07/17 00:33:23.744 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/17 00:33:23.745 [I] [asm_amd64.s:1374]  https server Running on https://:10443
+2021/07/17 00:37:01.085 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/17 00:37:01.087 [I] [asm_amd64.s:1374]  https server Running on https://:10443
+2021/07/17 00:42:11.276 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/17 00:42:11.278 [I] [asm_amd64.s:1374]  https server Running on https://:10443
+2021/07/17 00:46:20.592 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/17 00:46:20.593 [I] [asm_amd64.s:1374]  https server Running on https://:10443
+2021/07/17 00:47:46.224 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/17 00:47:46.226 [I] [asm_amd64.s:1374]  https server Running on https://:10443
+2021/07/17 00:48:15.100 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/17 00:48:15.102 [I] [asm_amd64.s:1374]  https server Running on https://:10443
+2021/07/17 00:48:22.542 [server.go:2843]  172.16.2.160 - - [17/Jul/2021 12:48:22] "GET /prometheus/alert/ HTTP/1.1 200 0" 0.002000  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021/07/17 00:48:22.691 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/17 00:49:35.283 [server.go:2843]  172.16.2.160 - - [17/Jul/2021 12:49:35] "GET /prometheus/alert/ HTTP/1.1 200 0" 0.004002  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021/07/17 00:49:35.415 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/17 00:49:49.691 [server.go:2843]  172.16.2.160 - - [17/Jul/2021 12:49:49] "GET /prometheus/alert/ HTTP/1.1 200 0" 0.000997  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021/07/17 00:49:49.734 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/17 00:49:49.941 [server.go:2843]  172.16.2.160 - - [17/Jul/2021 12:49:49] "GET /prometheus/alert/ HTTP/1.1 200 0" 0.001000  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67
+2021/07/17 00:49:50.021 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/17 22:37:07.592 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/17 22:37:07.593 [I] [asm_amd64.s:1374]  https server Running on https://:10443
+2021/07/17 22:43:03.448 [server.go:2843]  172.16.2.179 - - [17/Jul/2021 10:43:03] "GET /prometheus/alert/ HTTP/1.1 200 0" 0.010002  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.70
+2021/07/17 22:43:03.572 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/17 22:43:22.215 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/17 22:43:22.217 [I] [asm_amd64.s:1374]  https server Running on https://:10443
+2021/07/17 22:43:28.687 [server.go:2843]  172.16.2.179 - - [17/Jul/2021 10:43:28] "GET /prometheus/alert/ HTTP/1.1 200 0" 0.001999  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.70
+2021/07/17 22:43:28.737 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/17 22:43:30.012 [server.go:2843]  172.16.2.179 - - [17/Jul/2021 10:43:30] "GET /prometheus/alert/ HTTP/1.1 200 0" 0.001004  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.70
+2021/07/17 22:43:30.062 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/17 22:45:13.537 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/17 22:45:13.538 [I] [asm_amd64.s:1374]  https server Running on https://:10443
+2021/07/17 22:47:39.940 [server.go:2843]  172.16.2.179 - - [17/Jul/2021 10:47:39] "GET /prometheus/alert/ HTTP/1.1 200 0" 0.002004  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.70
+2021/07/17 22:47:39.992 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/17 23:20:45.712 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/17 23:20:45.714 [I] [asm_amd64.s:1374]  https server Running on https://:10443
+2021/07/17 23:20:45.807 [server.go:2843]  172.16.2.179 - - [17/Jul/2021 11:20:45] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.023005  Alertmanager/0.21.0
+2021/07/17 23:22:13.238 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/17 23:22:13.240 [I] [asm_amd64.s:1374]  https server Running on https://:10443
+2021/07/17 23:23:17.132 [server.go:2843]  172.16.2.179 - - [17/Jul/2021 11:23:17] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.017005  Alertmanager/0.21.0
+2021/07/17 23:23:21.102 [server.go:2843]  172.16.2.179 - - [17/Jul/2021 11:23:21] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.032008  Alertmanager/0.21.0
+2021/07/17 23:23:31.848 [server.go:2843]  172.16.2.179 - - [17/Jul/2021 11:23:31] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.008003  Alertmanager/0.21.0
+2021/07/17 23:23:41.368 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/17 23:23:41.369 [I] [asm_amd64.s:1374]  https server Running on https://:10443
+2021/07/17 23:25:31.570 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/17 23:25:31.571 [I] [asm_amd64.s:1374]  https server Running on https://:10443
+2021/07/17 23:29:28.977 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/17 23:29:28.978 [I] [asm_amd64.s:1374]  https server Running on https://:10443
+2021/07/17 23:29:29.393 [server.go:2843]  172.16.2.179 - - [17/Jul/2021 11:29:29] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.018514  Alertmanager/0.21.0
+2021/07/17 23:29:31.303 [server.go:2843]  172.16.2.179 - - [17/Jul/2021 11:29:31] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.009002  Alertmanager/0.21.0
+2021/07/17 23:31:02.160 [server.go:2843]  172.16.2.179 - - [17/Jul/2021 11:31:02] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.027995  Alertmanager/0.21.0
+2021/07/17 23:31:06.111 [server.go:2843]  172.16.2.179 - - [17/Jul/2021 11:31:06] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.036559  Alertmanager/0.21.0
+2021/07/17 23:34:27.282 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/17 23:34:27.284 [I] [asm_amd64.s:1374]  https server Running on https://:10443
+2021/07/17 23:34:56.235 [server.go:2843]  172.16.2.179 - - [17/Jul/2021 11:34:56] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.016004  Alertmanager/0.21.0
+2021/07/17 23:36:12.379 [server.go:2843]  172.16.2.179 - - [17/Jul/2021 11:36:12] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.005000  Alertmanager/0.21.0
+2021/07/17 23:43:36.085 [server.go:2843]  172.16.2.179 - - [17/Jul/2021 11:43:36] "POST /prometheus/alert/ HTTP/1.1 200 0" 0.005002  Alertmanager/0.21.0
+2021/07/17 23:48:30.439 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2021/07/17 23:48:30.440 [I] [asm_amd64.s:1374]  https server Running on https://:10443
