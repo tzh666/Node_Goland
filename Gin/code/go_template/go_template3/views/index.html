@@ -1,0 +1,10 @@
+<!-- 继承模板 -->
+<!-- . 一定要,要不然数据继承不过来 -->
+{{template "base.html" .}}
+
+<!-- 重写模板 -->
+{{ define "content" }}
+<div>
+    <h3>Hello {{ . }}</h3>
+</div>
+{{ end }}
